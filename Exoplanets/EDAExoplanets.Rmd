@@ -1,0 +1,128 @@
+---
+title: "EDAExoplanets"
+author: "Leonard Orozco"
+date: "2020/2/13"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Analysis preliminaire du dataset Exoplanets
+
+Vous pouvez trouver le dataset original ici: ??.
+
+
+```{r}
+# Prends le dataset 
+kep <- read.csv("kepler.csv")
+```
+
+```{r}
+# Regarder un sommaire
+summary(kep)
+```
+Le sommaire n'est pas vraiment utile parce que il y a trop de colonnes. On peut voir le nombre specifique en bas.
+
+```{r}
+# Trouve les dimensions des données
+dim(kep)
+```
+Donc, il y a 98 variables. Nous allons essayer de choisir quelques variables qui pourraient être utile.
+```{r}
+# Regarder les charactères
+head(kep, 5)
+```
+Il y a deux types de variables dans les données. Ceux-ci ayant un lieu avec l'exoplanète lui même et ceux ayant un lieu avec l'étoile qui l'exoplanéte entoure. Bien sur, nous sommes presque entièrement interessés avec planet_status.  Ayant parcouru un peu les données, nous voulons savoir s'il y a beaucoup des NA's. 
+
+```{r}
+# Sans le package
+na.counts <- c()
+for(i in 1:length(kep)){
+  nas <- sum(is.na(kep[i]))
+  info <- list(names(kep)[i],nas)
+  na.counts <- c(na.counts,info)
+}
+print(na.counts)
+```
+Il semble avoir beaucoup de NA's. Excellent. Nous allons devoir nettoyer. 
+
+En suite, nous allons devoir trouver une méthode pour parcourir rapidement les données etant donant qu'il y en a beaucoup.
+
+Mais, on peut voir que même avec mice, c'est difficile de voir facilement le nombre de NA's dans chaque colonne. Comment faire? 
+
+```{r}
+# Avec mice
+library(mice)
+
+# Une matrice avec les données pour le nombre de NA's
+na.m <- md.pattern(kep)
+```
+
+```{r}
+# Essaye de trouver les indices
+head(na.m, 4)
+```
+
+```{r}
+# Convertir
+na.d <- data.frame(na.m)
+```
+```{r}
+# Trouver les NA's encore
+# -- Il doit y avoir quelque chose plus...
+```
+
+```{r}
+# Je veux savoir si il y a une étoile qui a plusieurs planètes.
+length(unique(kep$star_name, na.rm = T))
+```
+Eh bon, parce qu'il y plus des rangs que le resultat, nous pouvons concluir qu'il y a en effet des planètes qui entourent la même étoile. Trouvouns ces planètes. 
+
+```{r}
+# Essentielement, faire une list des étoiles. Si on a déjà vu l'étoile, 
+# mettons la dans une autre liste. 
+stars <- c()
+rep.stars <- c()
+index.l <- c(0)
+for(i in 1:length(kep$star_name)){
+  if(!is.element(as.character(kep$star_name[i]),stars)){
+    stars <- c(stars,as.character(kep$star_name[i]))
+  } else {
+
+    rep.stars <- c(rep.stars, as.character(kep$star_name[i]))
+    print(i)
+  }
+}
+```
+Verifions que les listes ont les nombres appropriés. Comment vérifier tout cela ?
+
+```{r}
+length(stars)
+```
+```{r}
+length(unique(rep.stars))
+```
+On a trouvé les étoiles. Est-ce-qu'on peut trouver les planétes ?
+
+```{r}
+# Commencer en petit echelle
+res <- kep$X..name[kep$star_name == rep.stars[1]]
+res
+```
+
+```{r}
+kep[kep$star_name == rep.stars[1][1],]
+```
+
+Faisons un ensemble données dont les planètes font partie d'un système. Autrement dit, un ensemble ou les étoiles sont repétés dans le DF originel. 
+
+```{r}
+d.sys <- kep[kep$star_name == unique(c(rep.stars)),]
+```
+
+```{r}
+subset(kep, star_name == unique(rep.stars), select = X..name)
+```
+
