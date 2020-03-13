@@ -5,6 +5,7 @@ from pandas import DataFrame, Series
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import KFold
 
+# TODO the score outputed here may not be the error rate
 def kfold_logistic_regression(dataset, predictors, response, splits):
 
     lg = LogisticRegression()
@@ -15,11 +16,11 @@ def kfold_logistic_regression(dataset, predictors, response, splits):
     # We will find the estimated error rate
     estimated_error_rate = 0
 
-    for train, test in kf.split(games):
+    for train, test in kf.split(dataset):
 
         # Create training and test data
-        train_data = games.iloc[train][predictors + response]
-        test_data = games.iloc[test][predictors + response]
+        train_data = dataset.iloc[train][predictors + response]
+        test_data = dataset.iloc[test][predictors + response]
 
         # Predictor and response (training)
         X_train = DataFrame(train_data[predictors])
