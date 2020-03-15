@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56b9c018-2ed0-4449-aac0-7d6d0d508729" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chess/ChessUtility.py" />
+    <list default="true" id="56b9c018-2ed0-4449-aac0-7d6d0d508729" name="Default" comment="Utilities&#10;- Made small utilites based on functions I'd used in early models.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chess/ChessLogisticRegression.py" afterPath="$PROJECT_DIR$/Chess/ChessLogisticRegression.py" />
     </list>
     <ignored path="Data_Science_Projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -473,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584287403861</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Utilities&#10;- Made small utilites based on functions I'd used in early models.">
+      <created>1584289841251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584289841251</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -542,7 +547,8 @@
     <MESSAGE value="Cleaned up notebooks further:&#10;- Removed unnecessary comments. &#10;- Implemented simpler kfold cv code. &#10;- Fixed column vector warning. &#10;- Updated ChessVariable to reflect the notebook.&#10;- Wrote up variable text for chess variables." />
     <MESSAGE value="Experimented with trees&#10;- Created a simple tree&#10;- Created a bag of trees&#10;- Created a random forest" />
     <MESSAGE value="Chess EDA &#10;- Completed Chess EDA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chess EDA &#10;- Completed Chess EDA" />
+    <MESSAGE value="Utilities&#10;- Made small utilites based on functions I'd used in early models." />
+    <option name="LAST_COMMIT_MESSAGE" value="Utilities&#10;- Made small utilites based on functions I'd used in early models." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
