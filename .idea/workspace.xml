@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56b9c018-2ed0-4449-aac0-7d6d0d508729" name="Default" comment="Utilities&#10;- Made small utilites based on functions I'd used in early models.">
+    <list default="true" id="56b9c018-2ed0-4449-aac0-7d6d0d508729" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Data_Science_Projects.iws" />
@@ -478,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584289841251</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Chess EDA's">
+      <created>1584289881243</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584289881243</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -548,7 +555,8 @@
     <MESSAGE value="Experimented with trees&#10;- Created a simple tree&#10;- Created a bag of trees&#10;- Created a random forest" />
     <MESSAGE value="Chess EDA &#10;- Completed Chess EDA" />
     <MESSAGE value="Utilities&#10;- Made small utilites based on functions I'd used in early models." />
-    <option name="LAST_COMMIT_MESSAGE" value="Utilities&#10;- Made small utilites based on functions I'd used in early models." />
+    <MESSAGE value="Chess EDA's" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chess EDA's" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
