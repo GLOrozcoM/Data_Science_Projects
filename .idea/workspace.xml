@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="56b9c018-2ed0-4449-aac0-7d6d0d508729" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chess/Chess_Project_EDA.ipynb" afterPath="$PROJECT_DIR$/Chess/Chess_Project_EDA.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chess/Chess_Project_Introduction_Variable_Creation.ipynb" afterPath="$PROJECT_DIR$/Chess/Chess_Project_Introduction_Variable_Creation.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chess/games_clean.csv" afterPath="$PROJECT_DIR$/Chess/games_clean.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ビデオゲームのデータ/.ipynb_checkpoints/ビデオゲームの全分析-checkpoint.ipynb" afterPath="$PROJECT_DIR$/ビデオゲームのデータ/.ipynb_checkpoints/ビデオゲームの全分析-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ビデオゲームのデータ/ビデオゲームの全分析.ipynb" afterPath="$PROJECT_DIR$/ビデオゲームのデータ/ビデオゲームの全分析.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chess/.ipynb_checkpoints/Chess_Project_Cleaning-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Chess/.ipynb_checkpoints/Chess_Project_Cleaning-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chess/Chess Logistic Regression.ipynb" afterPath="$PROJECT_DIR$/Chess/Chess Logistic Regression.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chess/ChessLogisticRegression.py" afterPath="$PROJECT_DIR$/Chess/ChessLogisticRegression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chess/Chess_Project_Cleaning.ipynb" afterPath="$PROJECT_DIR$/Chess/Chess_Project_Cleaning.ipynb" />
     </list>
     <ignored path="Data_Science_Projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +48,7 @@
       <file leaf-file-name="ChessBaggingTrees.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chess/ChessBaggingTrees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="165">
               <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -62,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/Chess/ChessLogisticRegressionSimple.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="29" />
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -73,8 +72,8 @@
       <file leaf-file-name="ChessRandomForest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chess/ChessRandomForest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="150">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -82,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChessUtility.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChessUtility.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chess/ChessUtility.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -93,6 +92,16 @@
                 <element signature="e#577#784#0" expanded="false" />
                 <element signature="e#853#1076#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChessLogisticRegression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chess/ChessLogisticRegression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,8 +128,8 @@
         <option value="$PROJECT_DIR$/Chess/ChessTrees.py" />
         <option value="$PROJECT_DIR$/Chess/ChessBaggingTrees.py" />
         <option value="$PROJECT_DIR$/Chess/ChessRandomForest.py" />
-        <option value="$PROJECT_DIR$/Chess/ChessLogisticRegression.py" />
         <option value="$PROJECT_DIR$/Chess/ChessUtility.py" />
+        <option value="$PROJECT_DIR$/Chess/ChessLogisticRegression.py" />
       </list>
     </option>
   </component>
@@ -154,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -189,7 +199,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,24 +209,7 @@
       <recent name="$PROJECT_DIR$/Chess" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ChessUtility">
-    <configuration default="false" name="ChessTrees" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chess" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Data_Science_Projects" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chess/ChessTrees.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ChessLogisticRegression">
     <configuration default="false" name="ChessBaggingTrees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,6 +274,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Data_Science_Projects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chess/ChessUtility.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChessLogisticRegressionSimple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chess" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Data_Science_Projects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chess/ChessLogisticRegressionSimple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -421,19 +430,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ChessTrees" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ChessBaggingTrees" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ChessRandomForest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ChessLogisticRegression" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ChessUtility" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ChessBaggingTrees" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ChessRandomForest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ChessLogisticRegression" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ChessUtility" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ChessLogisticRegressionSimple" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ChessUtility" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ChessLogisticRegression" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ChessLogisticRegression" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ChessLogisticRegressionSimple" />
         <item index="2" class="java.lang.String" itemvalue="Python.ChessRandomForest" />
         <item index="3" class="java.lang.String" itemvalue="Python.ChessBaggingTrees" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ChessTrees" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ChessUtility" />
       </list>
     </recent_temporary>
   </component>
@@ -513,23 +522,23 @@
     <frame x="0" y="52" width="1440" height="797" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.6331967" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.62355214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5024665" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2874828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2874828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40440166" sideWeight="0.49753347" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.49371633" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.3668033" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.3764479" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40440166" sideWeight="0.49753347" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -578,6 +587,66 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Chess/ChessVariable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#77#96#0" expanded="true" />
+            <element signature="e#158#263#0" expanded="false" />
+            <element signature="e#304#410#0" expanded="false" />
+            <element signature="e#447#666#0" expanded="false" />
+            <element signature="e#704#759#0" expanded="false" />
+            <element signature="e#800#862#0" expanded="false" />
+            <element signature="e#905#1008#0" expanded="false" />
+            <element signature="e#1038#1167#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chess/ChessBaggingTrees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chess/ChessLogisticRegressionSimple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chess/ChessRandomForest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chess/ChessUtility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#70#88#0" expanded="true" />
+            <element signature="e#269#491#0" expanded="false" />
+            <element signature="e#577#784#0" expanded="false" />
+            <element signature="e#853#1076#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chess/ChessVariable.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -824,10 +893,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chess/ChessLogisticRegression.py">
+    <entry file="file://$PROJECT_DIR$/Chess/ChessUtility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="69" selection-start-line="0" selection-start-column="69" selection-end-line="0" selection-end-column="69" />
+          <folding>
+            <element signature="e#70#88#0" expanded="true" />
+            <element signature="e#269#491#0" expanded="false" />
+            <element signature="e#577#784#0" expanded="false" />
+            <element signature="e#853#1076#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chess/ChessRandomForest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chess/ChessBaggingTrees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chess/ChessLogisticRegressionSimple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -848,46 +953,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chess/ChessBaggingTrees.py">
+    <entry file="file://$PROJECT_DIR$/Chess/ChessLogisticRegression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chess/ChessLogisticRegressionSimple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chess/ChessRandomForest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chess/ChessUtility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="69" selection-start-line="0" selection-start-column="69" selection-end-line="0" selection-end-column="69" />
-          <folding>
-            <element signature="e#70#88#0" expanded="true" />
-            <element signature="e#269#491#0" expanded="false" />
-            <element signature="e#577#784#0" expanded="false" />
-            <element signature="e#853#1076#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
