@@ -47,12 +47,20 @@ def main():
     # Run kfold cv for 5 splits
     FIRST_SPLIT = 5
     kfive_accuracy, kfive_model = kfold_logistic_regression(games, predictors, response, FIRST_SPLIT)
+
     print("K five estimated accuracy:", kfive_accuracy)
+=======
+    print("Kfive estimated accuracy:", kfive_accuracy)
+>>>>>>> chessproject
 
     # Run kfold cv 10 splits
     SECOND_SPLIT = 10
     kten_accuracy, kten_model = kfold_logistic_regression(games, predictors, response, SECOND_SPLIT)
+<<<<<<< HEAD
     print("K ten estimated accuracy:", kten_accuracy)
+=======
+    print("Kten estimated accuracy:", kten_accuracy)
+>>>>>>> chessproject
 
     print('Main completed')
     return 0
