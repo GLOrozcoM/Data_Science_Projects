@@ -1,11 +1,9 @@
 # Create a logistic regression model
 
 import pandas as pd
-from pandas import DataFrame, Series
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import KFold
 
-# TODO the score outputed here may not be the error rate
 def kfold_logistic_regression(dataset, predictors, response, splits):
 
     lg = LogisticRegression()
@@ -14,7 +12,7 @@ def kfold_logistic_regression(dataset, predictors, response, splits):
     kf = KFold(n_splits=splits)
 
     # We will find the estimated error rate
-    estimated_error_rate = 0
+    estimated_accuracy = 0
 
     for train, test in kf.split(dataset):
 
@@ -23,21 +21,21 @@ def kfold_logistic_regression(dataset, predictors, response, splits):
         test_data = dataset.iloc[test][predictors + response]
 
         # Predictor and response (training)
-        X_train = DataFrame(train_data[predictors])
-        Y_train = DataFrame(train_data[response])
+        X_train = train_data[predictors]
+        Y_train = train_data[response].values.ravel()
 
         # Fit the model
         lg.fit(X_train, Y_train)
 
         # Predictor and response(test)
-        X_test = DataFrame(test_data[predictors])
-        Y_test = DataFrame(test_data[response])
+        X_test = test_data[predictors]
+        Y_test = test_data[response]
 
         # Store the score for the model
-        estimated_error_rate += lg.score(X_test, Y_test)
+        estimated_accuracy += lg.score(X_test, Y_test)
 
-    estimated_error_rate = estimated_error_rate / splits
-    return estimated_error_rate, lg
+    estimated_accuracy = estimated_accuracy / splits
+    return estimated_accuracy, lg
 
 def main():
 
@@ -48,13 +46,13 @@ def main():
 
     # Run kfold cv for 5 splits
     FIRST_SPLIT = 5
-    kfive_error_rate, kfive_model = kfold_logistic_regression(games, predictors, response, FIRST_SPLIT)
-    print("Kfive estimated error rate:", kfive_error_rate)
+    kfive_accuracy, kfive_model = kfold_logistic_regression(games, predictors, response, FIRST_SPLIT)
+    print("Kfive estimated accuracy:", kfive_accuracy)
 
     # Run kfold cv 10 splits
     SECOND_SPLIT = 10
-    kten_error_rate, kten_model = kfold_logistic_regression(games, predictors, response, SECOND_SPLIT)
-    print("Kten estimated error rate:", kten_error_rate)
+    kten_accuracy, kten_model = kfold_logistic_regression(games, predictors, response, SECOND_SPLIT)
+    print("Kten estimated accuracy:", kten_accuracy)
 
     print('Main completed')
     return 0
