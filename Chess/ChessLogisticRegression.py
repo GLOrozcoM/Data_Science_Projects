@@ -1,7 +1,6 @@
 # Create a logistic regression model
 
 import pandas as pd
-from pandas import DataFrame, Series
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import KFold
 
@@ -47,13 +46,13 @@ def main():
 
     # Run kfold cv for 5 splits
     FIRST_SPLIT = 5
-    kfive_error_rate, kfive_model = kfold_logistic_regression(games, predictors, response, FIRST_SPLIT)
-    print("K five estimated accuracy:", kfive_error_rate)
+    kfive_accuracy, kfive_model = kfold_logistic_regression(games, predictors, response, FIRST_SPLIT)
+    print("K five estimated accuracy:", kfive_accuracy)
 
     # Run kfold cv 10 splits
     SECOND_SPLIT = 10
-    kten_error_rate, kten_model = kfold_logistic_regression(games, predictors, response, SECOND_SPLIT)
-    print("K ten estimated accuracy:", kten_error_rate)
+    kten_accuracy, kten_model = kfold_logistic_regression(games, predictors, response, SECOND_SPLIT)
+    print("K ten estimated accuracy:", kten_accuracy)
 
     print('Main completed')
     return 0
