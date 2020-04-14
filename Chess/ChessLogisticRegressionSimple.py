@@ -37,7 +37,7 @@ def main():
     print(report)
 
     print("K scores for multiple logistic regression:")
-    predictors = ['abs_diff_rating', 'higher_rating_coded', 'turns', 'white_higher_rated']
+    predictors = ['abs_diff_rating', 'turns', 'white_higher_rated']
     run_kfold(games, predictors, response, lg, FIRST_SPLIT)
     run_kfold(games, predictors, response, lg, SECOND_SPLIT)
 
