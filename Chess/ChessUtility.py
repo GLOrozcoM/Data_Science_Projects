@@ -126,3 +126,16 @@ def get_negative_pv(confusion_matrix):
     """
 
     return confusion_matrix[0][0] / ( confusion_matrix[0][0] + confusion_matrix[1][0] )
+
+def get_cm_results(confusion_matrix):
+    """ Takes in a confusion matrix and spouts a dictionary containing useful confusion matrix measures.
+
+    :param confusion_matrix:
+    :return: dictionary containing results
+    """
+
+    results = { 'accuracy': get_accuracy(confusion_matrix), 'precision': get_precision(confusion_matrix),
+                'recall': get_recall(confusion_matrix), 'fmeasure': get_fmeasure(confusion_matrix),
+                'specificity': get_specificity(confusion_matrix), 'negative_pv': get_negative_pv(confusion_matrix) }
+
+    return results
