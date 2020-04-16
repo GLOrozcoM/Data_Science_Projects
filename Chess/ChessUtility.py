@@ -4,6 +4,11 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import StratifiedKFold
 import seaborn as sns
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import BaggingClassifier
+from sklearn.ensemble import RandomForestClassifier
+
+from sklearn.linear_model import LogisticRegression
 
 # TODO test suites for functions
 
@@ -139,3 +144,44 @@ def get_cm_results(confusion_matrix):
                 'specificity': get_specificity(confusion_matrix), 'negative_pv': get_negative_pv(confusion_matrix) }
 
     return results
+
+
+def run_logistic_regression(NUMBER_FOLDS, X, y, RANDOM_STATE):
+    """ Run a logistic regression on the chess dataset. This uses 10 fold cv.
+
+
+    """
+    lg = LogisticRegression()
+
+    lg_confusion_matrix = run_stratified_k(lg, NUMBER_FOLDS, X, y, random_state=RANDOM_STATE)
+
+    return lg_confusion_matrix
+
+
+def run_bag_trees(NUMBER_FOLDS, NUMBER_ESTIMATORS, RANDOM_STATE, X, y):
+    """ Fit a bag of trees to chess dataset.
+
+    """
+    tree = DecisionTreeClassifier()
+
+    bag = BaggingClassifier(base_estimator=tree,
+                            n_estimators=NUMBER_ESTIMATORS,
+                            random_state=RANDOM_STATE)
+
+    bag.fit(X, y)
+
+    bag_confusion_matrix = run_stratified_k(bag, NUMBER_FOLDS, X, y, RANDOM_STATE)
+
+    return bag_confusion_matrix
+
+
+def run_random_forest(NUMBER_FOLDS, NUMBER_ESTIMATORS, RANDOM_STATE, X, y):
+    """ Fit a random forest model to chess data.
+
+    """
+
+    random_forest = RandomForestClassifier(n_estimators=NUMBER_ESTIMATORS, random_state=RANDOM_STATE)
+
+    rforest_confusion_matrix = run_stratified_k(random_forest, NUMBER_FOLDS, X, y, RANDOM_STATE)
+
+    return rforest_confusion_matrix
