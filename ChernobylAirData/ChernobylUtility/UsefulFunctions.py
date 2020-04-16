@@ -251,7 +251,7 @@ def fill_a_point(index, df):
 
     index, df -> Dictionary containing results.
     """
-    coordinates = [df.loc[index, 'longitude'], df.loc[index, 'latitude']]
+    coordinates = [df.loc[index, 'latitude'], df.loc[index, 'longitude']]     # TODO make sure lats and longs are correct
 
     begin_wrap = '<h1> '
     end_wrap = ' </h1>'
@@ -276,3 +276,31 @@ def populate_points(df):
         points.append(single_point)
     return points
 
+
+def populate_point_features(dict_points):
+    """ Get a list of dictionaries containing separate points from the data.
+
+    list with dictionaries of points -> output a list containing features for the points
+    """
+    features = [
+        {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': point['coordinates'],
+            },
+            'properties': {
+                'time': point['time'],
+                'icon': 'circle',
+                'popup': point['popup'],
+                'iconstyle': {
+                    'fillColor': 'green',
+                    'fillOpacity': 0.6,
+                    'stroke': 'false',
+                    'radius': 5
+                },
+                'style': {'weight': 0}
+            }
+        } for point in dict_points
+        ]
+    return features
