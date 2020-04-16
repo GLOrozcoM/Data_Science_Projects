@@ -245,3 +245,34 @@ def include_lux(gdf_europe, gdf_world):
     return gdf_europe
 
 # Test suite
+
+def fill_a_point(index, df):
+    """ Fill up a point for the folium map using data for the ith index, and an air data frame.
+
+    index, df -> Dictionary containing results.
+    """
+    coordinates = [df.loc[index, 'longitude'], df.loc[index, 'latitude']]
+
+    begin_wrap = '<h1> '
+    end_wrap = ' </h1>'
+    city = df.loc[index, 'city']
+    country_code = df.loc[index, 'country_code']
+    popup = begin_wrap + city + ', ' + country_code + end_wrap
+
+    time = df.loc[index, 'Date']
+
+    result = {'coordinates': coordinates, 'popup': popup, 'time': time}
+    return result
+
+
+def populate_points(df):
+    """ Fill up the points list with points following the fill a point format.
+
+    df -> list of points
+    """
+    points = []
+    for index in range(len(df)):
+        single_point = fill_a_point(index, df)
+        points.append(single_point)
+    return points
+
