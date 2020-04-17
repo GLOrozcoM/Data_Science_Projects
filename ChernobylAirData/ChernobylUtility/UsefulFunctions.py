@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+import math
 import matplotlib.pyplot as plt
 
 from shapely.geometry import Point, Polygon
@@ -246,36 +246,109 @@ def include_lux(gdf_europe, gdf_world):
 
 # Test suite
 
-def fill_a_point(index, df):
+def fill_a_point(index, df, concentration_type):
     """ Fill up a point for the folium map using data for the ith index, and an air data frame.
 
     index, df -> Dictionary containing results.
     """
-    coordinates = [df.loc[index, 'latitude'], df.loc[index, 'longitude']]     # TODO make sure lats and longs are correct
+    coordinates = [df.loc[index, 'latitude'], df.loc[index, 'longitude']]
 
-    begin_wrap = '<h1> '
-    end_wrap = ' </h1>'
-    city = df.loc[index, 'city']
+    if concentration_type == 'i131':
+        concentration = df.loc[index, 'i131']
+    elif concentration_type == 'cs134':
+        concentration = df.loc[index, 'cs134']
+    else:
+        concentration = df.loc[index, 'cs137']
+
+
+    # HTML wrapping
+    begin_head_wrap = '<h3 style="font-family:Times New Roman;"> '
+    city = df.loc[index, 'city'].lower()
+    city = city.capitalize()
     country_code = df.loc[index, 'country_code']
-    popup = begin_wrap + city + ', ' + country_code + end_wrap
+    end_head_wrap = ' </h3>'
+
+    header = begin_head_wrap + city + ', ' + country_code + end_head_wrap
+
+    conc_begin_par_wrap = '<p style="font-family:Times New Roman;">'
+    rounded_value = np.round(concentration, 4)
+    str_concentration_value = str( rounded_value )
+    conc_end_par_wrap = '</p>'
+
+    concentration_paragraph = conc_begin_par_wrap + 'Concentration: ' + str_concentration_value + conc_end_par_wrap
+
+    date_begin_par_wrap = '<p style="font-family:Times New Roman;">'
+    str_date = str(df.loc[index, 'Date'])
+    date_end_par_wrap = '</p>'
+
+    date_paragraph = date_begin_par_wrap + 'Date: ' + str_date + date_end_par_wrap
+
+
+    popup = header + concentration_paragraph + date_paragraph
 
     time = df.loc[index, 'Date']
 
-    result = {'coordinates': coordinates, 'popup': popup, 'time': time}
+    result = {'coordinates': coordinates,
+              'popup': popup,
+              'time': time,
+              'concentration': concentration,
+              'concentration_type': concentration_type}
     return result
 
 
-def populate_points(df):
+def determine_color(concentration, concentration_type):
+    """ Determines the color a point should take based on intensity of concentration.
+
+    float -> str
+    """
+
+    concentration_quantiles = get_percentile(concentration_type)
+    third_quantile = concentration_quantiles[2]
+    median = concentration_quantiles[1]
+    first_quantile = concentration_quantiles[0]
+
+    # TODO feel there is a better way to map color concentrations
+    if np.isnan(concentration):  # Value not present
+        return 'gray'
+    elif math.isclose(concentration, 0):
+        return '#ff99cc'
+    elif concentration <= first_quantile:
+        return 'lightgreen'
+    elif concentration <= median:
+        return 'yellow'
+    elif concentration <= third_quantile:
+        return 'orange'
+    # Bigger than third quantile just give red
+    return 'red'
+
+
+def populate_points(df, concentration_type):
     """ Fill up the points list with points following the fill a point format.
 
     df -> list of points
     """
     points = []
     for index in range(len(df)):
-        single_point = fill_a_point(index, df)
+        single_point = fill_a_point(index, df, concentration_type)
         points.append(single_point)
     return points
 
+
+def get_percentile(concentration_type):
+    """ Get the percentiles for each of the concentration measures in the Chernobyle data set.
+
+    which concentration to get -> percentile as an array
+    """
+    # TODO assert for three concentration types
+
+    if concentration_type == 'i131':
+        result = np.array([0.0034, 0.06, 1.14])
+    elif concentration_type == 'cs134':
+        result = np.array([0.0, 0.002035, 0.17])
+    else:  # Expecting cs137
+        result = np.array([0.0016, 0.02, 0.479325])
+
+    return result
 
 def populate_point_features(dict_points):
     """ Get a list of dictionaries containing separate points from the data.
@@ -294,7 +367,7 @@ def populate_point_features(dict_points):
                 'icon': 'circle',
                 'popup': point['popup'],
                 'iconstyle': {
-                    'fillColor': 'green',
+                    'fillColor': determine_color(point['concentration'], point['concentration_type']),
                     'fillOpacity': 0.6,
                     'stroke': 'false',
                     'radius': 5
