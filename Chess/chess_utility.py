@@ -6,6 +6,9 @@ Module containing utility functions for chess data set analysis.
 # General math
 import numpy as np
 
+# Data frame manipulation
+import pandas as pd
+
 # Model metrics
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import classification_report, confusion_matrix
@@ -13,6 +16,7 @@ from sklearn.model_selection import StratifiedKFold
 
 # Visualization
 import seaborn as sns
+import matplotlib.pyplot as plt
 
 # Classifiers
 from sklearn.tree import DecisionTreeClassifier
@@ -253,3 +257,110 @@ def run_random_forest(number_folds, number_estimators, random_state, X, y):
     r_forest_confusion_matrix = run_stratified_k(random_forest, number_folds, X, y, random_state)
 
     return r_forest_confusion_matrix
+
+
+def create_bar_results(model_results, title, ax):
+    """ Create a seaborn bar plot of the confusion matrix readings of a plot.
+
+    :param model_results: A dictionary containing the model's confusion matrix readings
+    :param title: Title of the subplot
+    :param ax: The axis of the subplot, should be passed in as an entry from plt.subplots()
+    :return: None
+    """
+    series_results = pd.Series(model_results)
+
+    sns.barplot(series_results.index, series_results.values, ax = ax)
+    ax.title.set_text(title)
+
+    ax = ax
+
+    for bar, p in enumerate(ax.patches):
+        height = p.get_height()
+        ax.text(
+            bar,
+            height + 0.02,
+            u'{:0.3f}'.format(height),
+            color = 'black',
+            fontsize = 14,
+            ha = 'center',
+            va = 'center'
+        )
+
+    return None
+
+
+def create_cumulative_results_plot(r_forest_results, lg_results, bag_results):
+    """ Create a grid of subplots containing bar plots for model results.
+
+    :param r_forest_results: Dictionary containing results from a random forest.
+    :param lg_results: Dictionary containing results from a logistic regression.
+    :param bag_results: Dictionary containing results from a bag of trees.
+    :return: None
+    """
+    fig, axs = plt.subplots(figsize=[20, 5], ncols=3, sharey=True, sharex=True, gridspec_kw={'wspace': 0.2})
+
+    create_bar_results(lg_results, 'Logistic Regression Results', axs[0])
+    create_bar_results(bag_results, 'Bag Results', axs[1])
+    create_bar_results(r_forest_results, 'Random Forest Results', axs[2])
+
+    plt.ylim([0, 1])
+
+    return None
+
+def group_results(measure, lg_results, bag_results, r_forest_results):
+    """ Construct and return a dictionary containing the same measure across different models.
+
+    :param measure: Type of measure to get from the results e.g. accuracy.
+    :param lg_results: Logistic regression results.
+    :param bag_results: Bag of trees results.
+    :param r_forest_results: Random forest results.
+    :return: Dictionary containing measures for each model.
+    """
+
+    results = {'Logistic Regression': lg_results[measure], 'Bag of Trees':bag_results[measure], 'Random Forest':r_forest_results[measure]}
+    return results
+
+
+def group_important_results(lg_results, bag_results, r_forest_results):
+    """ Create and return dictionaries with results across models.
+
+    :param lg_results: Logistic regression results.
+    :param bag_results: Bag of trees results.
+    :param r_forest_results: Random forest results.
+    :return: Six dictionaries containing results across models.
+    """
+
+    accuracy = group_results('accuracy', lg_results, bag_results, r_forest_results)
+    precision = group_results('precision', lg_results, bag_results, r_forest_results)
+    recall = group_results('recall', lg_results, bag_results, r_forest_results)
+    fmeasure = group_results('fmeasure', lg_results, bag_results, r_forest_results)
+    specificity = group_results('specificity', lg_results, bag_results, r_forest_results)
+    negative_pv = group_results('negative_pv', lg_results, bag_results, r_forest_results)
+
+    return accuracy, precision, recall, fmeasure, specificity, negative_pv
+
+def create_specific_results_plot(r_forest_results, lg_results, bag_results):
+    """ Create a grid of subplots containing bar plots for model results.
+
+    :param r_forest_results: Dictionary containing results from a random forest.
+    :param lg_results: Dictionary containing results from a logistic regression.
+    :param bag_results: Dictionary containing results from a bag of trees.
+    :return: None
+    """
+    fig, axs = plt.subplots(figsize=[20, 5], ncols=3, nrows = 2 ,sharey=True, sharex=True, gridspec_kw={'wspace': 0.2})
+
+    accuracy, precision, recall, fmeasure, specificity, negative_pv = group_important_results(lg_results,
+                                                                                                 bag_results,
+                                                                                                 r_forest_results)
+
+    create_bar_results(accuracy, 'Accuracy', axs[0][0])
+    create_bar_results(precision, 'Precision', axs[0][1])
+    create_bar_results(recall, 'Recall', axs[0][2])
+
+    create_bar_results(fmeasure, 'F-measure', axs[1][0])
+    create_bar_results(specificity, 'Specificity', axs[1][1])
+    create_bar_results(negative_pv, 'Negative PV', axs[1][2])
+
+    plt.ylim([0, 1])
+
+    return None
