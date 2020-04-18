@@ -305,6 +305,76 @@ def popup_html(concentration, df, index):
 
     return concentration_paragraph, date_paragraph, header
 
+def fill_entries_legend(concentration_type):
+    """ Fill an entry in the map legend to map color intensity.
+
+    :param concentration_type: Either i131, cs134, or cs137 - concentrations from Chernobyl air data set.
+    :return: HTML string
+    """
+
+    percentiles = get_percentile(concentration_type)
+
+    # Extreme - greater than third quartile
+    extreme_value = 1 + percentiles[2]
+    extreme_text = 'Extreme'
+    extreme_entry = intensity_entry(extreme_value, extreme_text, concentration_type)
+
+    # Strong - less than or equal to third quartile
+    strong_value = percentiles[2]
+    strong_text = 'Strong'
+    strong_entry = intensity_entry(strong_value, strong_text, concentration_type)
+
+    # Moderate - less than or equal to median
+    moderate_value = percentiles[1]
+    moderate_text = 'Moderate'
+    moderate_entry = intensity_entry(moderate_value, moderate_text, concentration_type)
+
+    # Weak - less than or equal to first quartile
+    weak_value = percentiles[0]
+    weak_text = 'Weak'
+    weak_entry = intensity_entry(weak_value, weak_text, concentration_type)
+
+    # None - measurement of 0 for concentration
+    none_value = 0
+    none_text = 'None'
+    none_entry = intensity_entry(none_value, none_text, concentration_type)
+
+    # NA value
+    na_text = 'No value'
+    na_entry = intensity_entry(np.nan, na_text, concentration_type)
+
+    final_entry = extreme_entry + strong_entry + moderate_entry + weak_entry + none_entry + na_entry
+
+    return final_entry
+
+def intensity_entry(concentration_value, value_text, concentration_type):
+    """ Write intensity entry for a particular concentration.
+
+    :param concentration_value: Numeric concentration value.
+    :param value_text: String describing the value.
+    :param concentration_type: Either i131, cs134, or cs137 - concentrations from Chernobyl air data set.
+    :return: HTML string
+    """
+
+    color = determine_color(concentration_value, concentration_type)
+    text = value_text
+    entry = entry_legend(text, color)
+
+    return entry
+
+def entry_legend(concentration_entry, color):
+    """ Creates an HTML string combining the intensity of the concentration and the color it should take.
+
+    :param concentration_entry: String to display in legend regarding intensity.
+    :param color: Corresponding color for the circle to display next to text.
+    :return: HTML string for line in legend
+    """
+
+    text = """<br> &nbsp; {con_value} &nbsp; <i class="fa fa-circle" style="color:{color};></i> """
+    formatted_text = text.format(con_value = concentration_entry , color = color)
+
+    return formatted_text
+
 def determine_color(concentration, concentration_type):
     """ Return a color based on the intensity of the concentration.
 
