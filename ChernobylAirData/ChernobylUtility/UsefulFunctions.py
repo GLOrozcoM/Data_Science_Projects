@@ -9,6 +9,9 @@ import math
 # Map operations
 from shapely.geometry import Point
 import geopandas as gpd
+import folium
+from folium import plugins
+
 
 # TODO write test suites for each function
 
@@ -370,10 +373,42 @@ def entry_legend(concentration_entry, color):
     :return: HTML string for line in legend
     """
 
-    text = """<br> &nbsp; {con_value} &nbsp; <i class="fa fa-circle" style="color:{color};></i> """
+    # One row, two columns - concentration intensity, color
+    text = """<tr> <th> &nbsp; {con_value} </th> <th> &nbsp <i class="fa fa-circle" style="color:{color}";></i> </th> </tr>"""
     formatted_text = text.format(con_value = concentration_entry , color = color)
 
     return formatted_text
+
+def create_outer_legend_box(title, legend_entries):
+    """ Make the legend html showing intensities of concentration along with color.
+
+    :param title: Title for the legend.
+    :param legend_entries: Rows to go in the table in legend.
+    :return: HTML string
+    """
+
+    legend_box = """
+     <div style="
+     position: fixed;
+     top: 10px; left: 390px; width: 190px; height: 160px;
+     border:2px solid grey; z-index:9999;
+
+     background-color:white;
+     opacity: .65;
+
+     font-size:14px;
+     font-weight: bold;
+
+     ">
+     &nbsp; {title}
+
+     <table style="width:50%">
+      {table_entries}
+     </table>
+
+      </div> """.format(title=title, table_entries=legend_entries)
+
+    return legend_box
 
 def determine_color(concentration, concentration_type):
     """ Return a color based on the intensity of the concentration.
@@ -457,3 +492,44 @@ def populate_point_features(dict_points):
         } for point in dict_points
         ]
     return features
+
+def create_folium_map(concentration_type, air_df, map_center, zoom_start):
+    """ Create a time stamped folium map with Chernobyl air concentration data.
+
+    :param concentration_type: Either i131, cs134, or cs137 - concentrations from Chernobyl air data set.
+    :param air_df: Chernobyl air data frame.
+    :param map_center: Where to center the map, [lat long].
+    :param zoom_start: Level of zoom in on the map.
+    :return: Folium map object.
+    """
+    # Data points
+    points = populate_points(air_df, concentration_type)
+    features = populate_point_features(points)
+
+    # Map
+    folium_map = folium.Map(location=map_center, zoom_start=zoom_start, width='60%', height='100%')
+
+    # Create legend
+    intensity_entries = fill_entries_legend(concentration_type)
+    legend_box = create_outer_legend_box('Concentration intensity', intensity_entries)
+
+    # Tag legend to map
+    folium_map.get_root().html.add_child(folium.Element(legend_box))
+
+    # Tag time scroller to map
+    plugins.TimestampedGeoJson(
+        {
+            'type': 'FeatureCollection',
+            'features': features
+        },
+        period='P1D',
+        add_last_point=False,
+        auto_play=False,
+        loop=False,
+        max_speed=1,
+        loop_button=True,
+        date_options='YYYY-MM-DD',
+        time_slider_drag_update=True
+    ).add_to(folium_map)
+
+    return folium_map
