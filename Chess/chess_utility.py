@@ -91,7 +91,7 @@ def run_stratified_k(model, num_splits, X, y, random_state):
         model.fit(X_train, y_train)
 
         predictions = model.predict(X_test)
-        c_matrix = confusion_matrix(predictions, y_test)  # TODO Include multi label situation if necessary
+        c_matrix = confusion_matrix(predictions, y_test)
 
         sum_confusion_matrix += c_matrix
 
@@ -260,7 +260,7 @@ def run_random_forest(number_folds, number_estimators, random_state, X, y):
 
 
 def create_bar_results(model_results, title, ax):
-    """ Create a seaborn bar plot of the confusion matrix readings of a plot.
+    """ Create a seaborn bar plot of a dictionary containing model results.
 
     :param model_results: A dictionary containing the model's confusion matrix readings
     :param title: Title of the subplot
@@ -320,7 +320,6 @@ def group_results(measure, lg_results, bag_results, r_forest_results):
     results = {'Logistic Regression': lg_results[measure], 'Bag of Trees':bag_results[measure], 'Random Forest':r_forest_results[measure]}
     return results
 
-
 def group_important_results(lg_results, bag_results, r_forest_results):
     """ Create and return dictionaries with results across models.
 
@@ -339,7 +338,7 @@ def group_important_results(lg_results, bag_results, r_forest_results):
 
     return accuracy, precision, recall, fmeasure, specificity, negative_pv
 
-def create_specific_results_plot(r_forest_results, lg_results, bag_results):
+def create_specific_results_plot(r_forest_results, lg_results, bag_results, ncols, nrows):
     """ Create a grid of subplots containing bar plots for model results.
 
     :param r_forest_results: Dictionary containing results from a random forest.
@@ -347,7 +346,7 @@ def create_specific_results_plot(r_forest_results, lg_results, bag_results):
     :param bag_results: Dictionary containing results from a bag of trees.
     :return: None
     """
-    fig, axs = plt.subplots(figsize=[20, 5], ncols=3, nrows = 2 ,sharey=True, sharex=True, gridspec_kw={'wspace': 0.2})
+    fig, axs = plt.subplots(figsize=[20, 5], ncols = ncols, nrows = nrows ,sharey=True, sharex=True, gridspec_kw={'wspace': 0.2})
 
     accuracy, precision, recall, fmeasure, specificity, negative_pv = group_important_results(lg_results,
                                                                                                  bag_results,
@@ -364,3 +363,34 @@ def create_specific_results_plot(r_forest_results, lg_results, bag_results):
     plt.ylim([0, 1])
 
     return None
+
+def get_recall_three_class(three_class_confusion_matrix, label):
+    """ Find the recall of a label in a three class confusion matrix
+
+    :param three_class_confusion_matrix: Confusion matrix with three labels, 2d array
+    :param label: Either 0, 1, or 2 to denote loss, draw, or win respectively.
+    :return: Recall metric for the label indicated.
+    """
+
+    recall = three_class_confusion_matrix[ label][ label] / (three_class_confusion_matrix[ label][ 0] +
+                                                             three_class_confusion_matrix[ label][ 1] +
+                                                             three_class_confusion_matrix[ label][ 2])
+    return recall
+
+def get_precision_three_class(three_class_confusion_matrix, label):
+    """ Find the precision of a label in a three class confusion matrix.
+
+    :param three_class_confusion_matrix: Confusion matrix with three labels, 2d array
+    :param label: Either 0, 1, or 2 to denote loss, draw, or win respectively.
+    :return: Precision metric for the label indicated.
+    """
+    precision = three_class_confusion_matrix[label][label] / (three_class_confusion_matrix[0][label] +
+                                                              three_class_confusion_matrix[1][label] +
+                                                              three_class_confusion_matrix[2][label])
+    return precision
+
+def get_accuracy_three_class(confusion_matrix):
+    num = confusion_matrix[0][0] + confusion_matrix[1][1] + confusion_matrix[2][2]
+    den = confusion_matrix.sum()
+
+    return num / den
