@@ -173,7 +173,7 @@ def get_specificity(confusion_matrix):
     :return: specificity
     """
 
-    return confusion_matrix[0][0] / (confusion_matrix[0][0] + confusion_matrix[0][1])
+    return confusion_matrix[0][0] / (confusion_matrix[0][0] + confusion_matrix[1][0])
 
 
 def get_negative_pv(confusion_matrix):
@@ -184,7 +184,7 @@ def get_negative_pv(confusion_matrix):
     :return: negative predicted value
     """
 
-    return confusion_matrix[0][0] / (confusion_matrix[0][0] + confusion_matrix[1][0])
+    return confusion_matrix[0][0] / (confusion_matrix[0][0] + confusion_matrix[0][1])
 
 
 def get_cm_results(confusion_matrix):
@@ -394,3 +394,67 @@ def get_accuracy_three_class(confusion_matrix):
     den = confusion_matrix.sum()
 
     return num / den
+
+
+def precision_recall_three_class(confusion_matrix, label):
+    """ Get precision and recall for a label in a three class confusion matrix.
+
+    :param confusion_matrix: Confusion matrix with three labels, 2d array
+    :param label: Either 0, 1, or 2 to denote loss, draw, or win respectively.
+    :return: Dictionary containing
+    """
+    precision = get_precision_three_class(confusion_matrix, label)
+    recall = get_recall_three_class(confusion_matrix, label)
+    results = {'Precision': precision, 'Recall': recall}
+    return results
+
+def make_multi_precision_recall_list(name_one, confusion_matrix_one, name_two, confusion_matrix_two, label):
+    """ Take names and confusion matrices to create precision and recall dictionary.
+
+    :param name_one: String naming model used in confusion matrix no 1
+    :param confusion_matrix_one: Three class confusion matrix
+    :param name_two: String naming model used in confusion matrix no 2
+    :param confusion_matrix_two: Three class confusion matrix
+    :param label: Either 0, 1, or 2 to denote loss, draw, or win respectively.
+    :return: Dictionary containing precision and recall results.
+    """
+    results = { name_one: precision_recall_three_class( confusion_matrix_one, label ),
+              name_two:  precision_recall_three_class( confusion_matrix_two, label )}
+    return results
+
+
+def create_specific_results_plot_general(results, ncols, nrows):
+    """ Create subplots for results. More general than create_specific_results_plot.
+
+    :param results: Dictionary of dictionaries containing data to plot.
+    :param ncols: Columns in figure for subplots.
+    :param nrows: Rows in figure for subplots.
+    :return: None
+    """
+    fig, axs = plt.subplots(figsize=[20, 5],
+                            ncols=ncols,
+                            nrows=nrows,
+                            sharey=True,
+                            sharex=True,
+                            gridspec_kw={'wspace': 0.2})
+
+    col = 0
+    for key in results:
+        create_bar_results(results[key], key, axs[col])
+        col += 1
+
+    plt.ylim([0, 1])
+
+    return None
+
+def make_plot_multi_label( bag_multi_confusion_matrix, r_forest_multi_confusion_matrix, label ):
+    """ Create a plot comparing a bag of trees and random forest precision and recall of a label.
+
+    :param bag_multi_confusion_matrix: Confusion matrix for a bag of trees. Three classes.
+    :param r_forest_multi_confusion_matrix: Confusion matrix for a random forest. Three classes.
+    :param label: Either 0, 1, or 2 to denote loss, draw, or win respectively.
+    :return: None
+    """
+    results = make_multi_precision_recall_list( 'Bag of trees', bag_multi_confusion_matrix,
+                                                  'Random forest', r_forest_multi_confusion_matrix, label )
+    create_specific_results_plot_general( results,  2, 1)
