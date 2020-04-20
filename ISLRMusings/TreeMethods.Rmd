@@ -1,0 +1,15 @@
+---
+title: "TreeBasedMethods"
+author: "Leonard Orozco"
+date: "2020年4月18日"
+output: html_document
+---
+
+## Tree based methods
+
+I experiment using tree based algorithms in R. 
+
+```{r}
+library(tree)
+```
+
