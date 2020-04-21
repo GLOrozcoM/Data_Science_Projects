@@ -532,4 +532,26 @@ def create_folium_map(concentration_type, air_df, map_center, zoom_start):
         time_slider_drag_update=True
     ).add_to(folium_map)
 
+    # Insert site of Chernobyl accident (Pripyat)
+    PRIPYAT_COORDS = [ 51.386998452, 30.092666296 ]
+    folium.CircleMarker(
+        location=PRIPYAT_COORDS,
+        radius=5,
+        popup='<h3 style="font-family:Times New Roman;">Pripyat, Ukraine </h3><p style="font-family:Times New Roman;"> Site of nuclear explosion </p>',
+        color='blue',
+        fill=True,
+        fill_color='blue'
+    ).add_to(folium_map)
+
+    # Insert site of Chernobyl
+    CHERNOBYL_COORDS = [ 50.447730, 30.542720 ]
+    folium.CircleMarker(
+        location=CHERNOBYL_COORDS,
+        radius=5,
+        popup='<h3 style="font-family:Times New Roman;">Chernobyl, Ukraine</h3><p style="font-family:Times New Roman;"> 15 km south of Pripyat </p>',
+        color='gray',
+        fill=True,
+        fill_color='gray'
+    ).add_to(folium_map)
+
     return folium_map
