@@ -10,6 +10,59 @@ output: html_document
 I experiment using tree based algorithms in R. 
 
 ```{r}
+games <- read.csv("games_new_vars.csv")
 library(tree)
 ```
 
+Fit the tree. 
+
+```{r}
+tree.result <-  tree(higher_rating_won ~ abs_diff_rating + turns + white_higher_rated, data = games )
+```
+Now we can check out the summary. 
+
+```{r}
+summary(tree.result)
+```
+Looks like I would have to declare the variable as a factor before the model will recognize this as a classification problem. Retry as a factor. 
+
+```{r}
+tree.result <-  tree(as.factor(higher_rating_won) ~ abs_diff_rating + turns + white_higher_rated, data = games )
+```
+
+```{r}
+summary(tree.result)
+```
+Note the 0.37 error rate. Would want this to be smaller. 
+
+```{r}
+tree.result
+
+```
+We can check out nodes and deicison making for the splits. What about a tree that has cross validation built into it? 
+
+```{r}
+cross.val.tree <- cv.tree(tree.result, FUN = prune.misclass)
+```
+
+Check the results. 
+
+```{r}
+cross.val.tree
+```
+
+The size component tells me how many terminal nodes the tree carries. Each size corresponds to a test error rate you can find with a number right below it. In this case, a size 3 tree performs better than a single node tree. Also, k corresponds to the pruning parameter. Supposing many options existed for the kind of tree I could pick, I could get the size corresponding to the lowest test error. 
+
+Here, we simply get the three noded tree. 
+
+```{r}
+pruned.tree <- prune.misclass( tree.result, best = 3 )    # Best tree had 3 nodes
+```
+
+Check it out. 
+
+```{r}
+pruned.tree
+```
+
+We can also try looking at a regression scenario. 
