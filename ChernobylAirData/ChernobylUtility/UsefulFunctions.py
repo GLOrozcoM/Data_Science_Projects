@@ -99,7 +99,7 @@ def make_gdf_air(df_chern):
 
     gdf_air = gpd.GeoDataFrame(df_chern)
     crs = 'epsg:4326'
-    geometry = [Point(xy) for xy in zip(df_chern["latitude"], df_chern["longitude"])]
+    geometry = [Point(xy) for xy in zip(df_chern["longitude"], df_chern["latitude"])]
     gdf_air = gpd.GeoDataFrame(df_chern, crs=crs, geometry=geometry)
     return gdf_air
 
@@ -118,21 +118,27 @@ def find_low_points(gdf):
     return index_list
 
 def modify_vaernes_valencia(gdf):
-    """ Resets latitude and longitude coordinates for Vaernes and Valencia data. This includes a modification of the geometric column.
+    """ Resets latitude and longitude coordinates for Vaernes and Valencia data. This includes a modification of the geometric column.m
 
     :param gdf: Geo data frame containing data for Vaernes, NO and Valencia, ES.
     :return: Geo data frame with correct measures for Vaernes and Valencia.
     """
 
-    gdf.loc[gdf.city == 'VAERNES', 'latitude'] = 10.327740
-    gdf.loc[gdf.city == 'VAERNES', 'longitude'] = 59.199860
+    vaernes_lat = 59.199860
+    vaernes_long = 10.327740
+    val_lat = 39.469906
+    val_long = -0.376288
 
-    gdf.loc[gdf.city == 'VALENCIA', 'latitude'] = -0.376288
-    gdf.loc[gdf.city == 'VALENCIA', 'longitude'] = 39.469906
+    gdf.loc[gdf.city == 'VAERNES', 'latitude'] = vaernes_lat
+    gdf.loc[gdf.city == 'VAERNES', 'longitude'] = vaernes_long
+    gdf.loc[gdf.city == 'VALENCIA', 'latitude'] = val_lat
+    gdf.loc[gdf.city == 'VALENCIA', 'longitude'] = val_long
 
     # Must modify since otherwise plotting would not work
-    geometry = [Point(xy) for xy in zip(gdf["latitude"], gdf["longitude"])]
-    gdf.geometry = geometry
+
+    # Change only the geometry of vaernes and valencia
+    gdf.loc[gdf.city == 'VAERNES', 'geometry'] = Point( vaernes_long, vaernes_lat)
+    gdf.loc[gdf.city == 'VALENCIA', 'geometry'] = Point(val_long, val_lat)
 
     return gdf
 
@@ -144,8 +150,8 @@ def find_out_indices_cz(gdf):
     """
 
     # Ranges for CZ only.
-    lat_range = [12, 19]
-    long_range = [48.5, 51]
+    long_range = [12, 19]
+    lat_range = [48.5, 51]
 
     gdf_cz = gdf.loc[gdf.country_code == 'CZ']
     out_indices = []
@@ -165,12 +171,14 @@ def swap_lat_long(gdf, indices):
     :return: Geo data frame with swapped lat and long.
     """
 
+    # Swap lat and long
     gdf['temp'] = gdf.loc[indices, 'latitude']
     gdf.loc[indices, 'latitude'] = gdf.loc[indices, 'longitude']
     gdf.loc[indices, 'longitude'] = gdf.loc[indices, 'temp']
     gdf.drop('temp', axis=1, inplace=True)
 
-    geometry = [Point(xy) for xy in zip(gdf["latitude"], gdf["longitude"])]
+    # TODO only geometry of the modified records
+    geometry = [Point(xy) for xy in zip(gdf["longitude"], gdf["latitude"])]
     gdf.geometry = geometry
 
     return gdf
@@ -537,7 +545,7 @@ def create_folium_map(concentration_type, air_df, map_center, zoom_start):
     folium.CircleMarker(
         location=PRIPYAT_COORDS,
         radius=5,
-        popup='<h3 style="font-family:Times New Roman;">Pripyat, Ukraine </h3><p style="font-family:Times New Roman;"> Site of nuclear explosion </p>',
+        popup='<h3 style="font-family:Times New Roman;">Pripyat, Ukraine </h3><p style="font-family:Times New Roman;"> City nearest to nuclear explosion </p>',
         color='blue',
         fill=True,
         fill_color='blue'
