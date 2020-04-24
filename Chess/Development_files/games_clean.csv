@@ -1,0 +1,452 @@
+,Unnamed: 0,id,rated,created_at,last_move_at,turns,victory_status,winner,increment_code,white_id,white_rating,black_id,black_rating,moves,opening_eco,opening_name,opening_ply,diff_rating,abs_diff_rating,higher_rating,higher_rating_won,higher_rating_coded,white_higher_rated,result
+5,5,MsoDV9wj,False,1504240000000.0,1504240000000.0,5,draw,draw,10+0,trelynn17,1250,franklin14532,1002,e4 c5 Nf3 Qa5 a3,B27,Sicilian Defense: Mongoose Variation,4,248,248,white,0,1,1,1
+21,21,QFCZwY1f,False,1502950000000.0,1502950000000.0,3,resign,white,30+60,shivangithegenius,1094,themannichreaction,1068,d4 e6 Nc3,A40,Horwitz Defense,2,26,26,white,1,1,1,2
+47,47,IRYkgI8N,False,1499320000000.0,1499320000000.0,7,resign,white,10+0,adnanraj,1343,shivangithegenius,978,e4 c5 Bc4 Nf6 e5 Ne4 Nf3,B20,Sicilian Defense: Bowdler Attack,3,365,365,white,1,1,1,2
+54,54,PBS4FEld,True,1503220000000.0,1503230000000.0,8,resign,white,16+0,wing175,1521,gerfsh,1162,Nf3 e5 Nxe5 Ke7 e4 Kd6 d4 Nc6,A04,Zukertort Opening: Ross Gambit,2,359,359,white,1,1,1,2
+55,55,0lDqWVlz,True,1503180000000.0,1503180000000.0,3,resign,white,6+10,caramiecho72,1407,gerfsh,1500,e4 c5 Nc3,B23,Sicilian Defense: Closed Variation,3,-93,93,black,0,0,0,0
+135,135,Cmhkui8U,True,1503410000000.0,1503410000000.0,9,resign,white,15+15,mdaboczi,1338,sassou,1277,d4 d5 e3 e6 c4 Bb4+ Nd2 dxc4 Qa4+,D00,Queen's Pawn Game #2,3,61,61,white,1,1,1,2
+141,141,X4QqWp8Q,True,1503130000000.0,1503130000000.0,2,resign,black,15+15,pune123,1443,sassou,1204,e4 Nf6,B02,Alekhine Defense,2,239,239,white,0,1,1,0
+367,367,D0idNTxu,True,1502640000000.0,1502640000000.0,4,outoftime,black,15+15,rustam9,945,b3nszy,1070,e4 e5 Nf3 Bd6,C40,King's Knight Opening,3,-125,125,black,1,0,0,2
+378,378,baOLL2ej,True,1502230000000.0,1502230000000.0,8,outoftime,black,10+0,gabriel_ml,998,rustam9,1016,e4 e5 Nf3 Nc6 c3 Be7 d4 Nf6,C44,Ponziani Opening: Romanishin Variation,6,-18,18,black,1,0,0,2
+439,439,37DIkyQP,True,1501820000000.0,1501820000000.0,2,draw,draw,10+0,marianocharly,1641,kyanh,1502,e4 d5,B01,Scandinavian Defense,2,139,139,white,0,1,1,1
+460,460,QYc8zif6,True,1503080000000.0,1503080000000.0,2,outoftime,black,5+5,fischerdipper,1646,hooponopono,1795,d4 d5,D00,Queen's Pawn Game,2,-149,149,black,1,0,0,2
+568,568,x0M9UzvX,True,1501800000000.0,1501800000000.0,4,resign,black,15+15,skipskipskop,914,hill_j,1141,a4 e5 Ra3 Bxa3,A00,Ware Opening,1,-227,227,black,1,0,0,2
+749,749,ApAyKSwj,True,1502560000000.0,1502560000000.0,4,resign,white,8+0,w-j,1758,slon-al,1804,d4 Nf6 c4 e5,A51,Indian Game: Budapest Defense,4,-46,46,black,0,0,0,0
+847,847,inyTCeV2,True,1501670000000.0,1501670000000.0,4,mate,black,10+0,duckduckfrog,1527,ducksandcats,1861,f4 e6 g4 Qh4#,A02,Bird Opening,1,-334,334,black,1,0,0,2
+862,862,eP09Yv7W,True,1500090000000.0,1500090000000.0,4,mate,black,10+0,duckduckfrog,1527,smartduckduckcow,1882,f4 e6 g4 Qh4#,A02,Bird Opening,1,-355,355,black,1,0,0,2
+864,864,V7a3QIoB,True,1499910000000.0,1499910000000.0,4,mate,black,10+0,duckduckfrog,1533,smartduckduckcow,1897,f4 e6 g4 Qh4#,A02,Bird Opening,1,-364,364,black,1,0,0,2
+865,865,mzWzFRLc,True,1499910000000.0,1499910000000.0,5,mate,white,10+0,smartduckduckcow,1894,duckduckfrog,1539,e3 f5 Nc3 g5 Qh5#,A00,Van't Kruijs Opening,1,355,355,white,1,1,1,2
+867,867,pSa9EQDs,True,1499910000000.0,1499910000000.0,4,mate,black,10+0,duckduckfrog,1552,smartduckduckcow,1887,f4 e6 g4 Qh4#,A02,Bird Opening,1,-335,335,black,1,0,0,2
+931,931,FHV15YuL,True,1498720000000.0,1498720000000.0,4,resign,black,30+0,mccheese,1026,bratt,1121,d4 d5 f3 e6,D00,Queen's Pawn Game,2,-95,95,black,1,0,0,2
+957,957,gB9xoMat,False,1502380000000.0,1502380000000.0,3,draw,draw,60+0,chess-brahs,1990,niftyleopard,1779,Nf3 b6 g3,A04,Zukertort Opening: Queenside Fianchetto Variation,2,211,211,white,0,1,1,1
+1182,1182,S0tpnlCZ,False,1496310000000.0,1496310000000.0,9,resign,black,8+5,kaushik007,1513,kaind,1501,d4 Nf6 c4 d5 cxd5 Nxd5 Nf3 Bf5 Qc2,D06,Queen's Gambit Refused: Marshall Defense,4,12,12,white,0,1,1,0
+1207,1207,tzibpoeG,True,1495250000000.0,1495250000000.0,9,draw,draw,10+5,izzlanfarischess,1845,jkf11,1750,e4 c5 Nf3 d6 Nc3 Nf6 d4 cxd4 Nxd4,B56,Sicilian Defense: Modern Variations,9,95,95,white,0,1,1,1
+1257,1257,ydqF9Q1W,False,1504200000000.0,1504200000000.0,8,resign,black,10+0,apervaiz,1567,axelpro446,1501,e4 e5 Nf3 Nc6 Bc4 Bc5 Ng5 Qxg5,C50,Giuoco Piano,6,66,66,white,0,1,1,0
+1279,1279,LD6016Qi,False,1503860000000.0,1503860000000.0,7,outoftime,white,10+0,axelpro446,1501,plenad,1797,e4 e5 Nf3 Nc6 Nc3 Bb4 d4,C46,Three Knights Opening #2,6,-296,296,black,0,0,0,0
+1289,1289,aN2zhmLS,False,1503600000000.0,1503600000000.0,8,resign,black,10+0,axelpro446,1501,augustbecarre,1609,e4 e5 Nf3 f5 exf5 e4 Ng5 Qxg5,C40,Latvian Gambit Accepted,5,-108,108,black,1,0,0,2
+1297,1297,aG0wK3mX,False,1503870000000.0,1503870000000.0,6,resign,white,15+15,canexd,1104,ahmedyousry29,1228,c4 e5 d3 Qf6 Nf3 Bc5,A20,English Opening: King's English Variation,2,-124,124,black,0,0,0,0
+1343,1343,n8kaYFjz,False,1497830000000.0,1497830000000.0,7,resign,white,10+0,jfuzzell,1500,thelostunicorn,1327,e4 c5 Nf3 Nf6 e5 Nd5 c4,B29,Sicilian Defense: Nimzowitsch Variation |  Advance Variation,5,173,173,white,1,1,1,2
+1351,1351,6eutPcFj,False,1496330000000.0,1496330000000.0,9,mate,white,10+0,thelostunicorn,1313,jacobopavia,1500,e4 e5 Nf3 Nf6 Nxe5 Nxe4 Qf3 d5 Qxf7#,C42,Russian Game: Damiano Variation,6,-187,187,black,0,0,0,0
+1352,1352,yMIwipGQ,False,1496330000000.0,1496330000000.0,9,mate,white,10+0,jacobopavia,1500,thelostunicorn,1313,e4 c5 Nc3 Nc6 Qf3 e5 Bc4 Nd4 Qxf7#,B25,Sicilian Defense: Closed Variation |  Traditional,4,187,187,white,1,1,1,2
+1478,1478,IiDvaZJu,True,1494450000000.0,1494450000000.0,7,resign,black,10+0,lolrager,1154,cantaloop,1191,d4 e6 c4 d6 Nc3 Nf6 Bf4,A40,Horwitz Defense,2,-37,37,black,1,0,0,2
+1490,1490,PdTSbmqt,True,1501170000000.0,1501170000000.0,8,outoftime,black,10+0,hasan_al-banna,1374,aliagha18,1385,e4 e5 Nf3 Qf6 Bc4 Bc5 d3 h6,C40,King's Pawn Game: McConnell Defense,4,-11,11,black,1,0,0,2
+1543,1543,Igw3bRib,False,1500470000000.0,1500470000000.0,6,resign,white,180+0,victor946c,1161,ranger440,1472,d4 d6 c4 Bg4 h3 Bxe2,A41,Old Indian Defense,3,-311,311,black,0,0,0,0
+1630,1630,d9gl523x,False,1491930000000.0,1491930000000.0,7,mate,white,7+2,razzzzy,1238,king-_-micah,1500,e4 e5 Bc4 Na6 Qf3 b6 Qxf7#,C23,Bishop's Opening,3,-262,262,black,0,0,0,0
+1631,1631,MKdZBR5k,False,1491930000000.0,1491930000000.0,7,mate,white,7+2,king-_-micah,1500,razzzzy,1238,e4 e5 Bc4 Na6 Qf3 b6 Qxf7#,C23,Bishop's Opening,3,262,262,white,1,1,1,2
+1632,1632,RRqJLTGb,False,1491930000000.0,1491930000000.0,4,mate,black,7+2,king-_-micah,1500,razzzzy,1238,f4 e6 g4 Qh4#,A02,Bird Opening,1,262,262,white,0,1,1,0
+1654,1654,ilL0VH7M,True,1498180000000.0,1498180000000.0,8,resign,black,15+15,joe-brown,951,acrossimpact,955,d4 e6 e4 Qh4 g3 Qxe4+ Ne2 Qxh1,C00,French Defense: Normal Variation,3,-4,4,black,1,0,0,2
+1680,1680,ait5yWPY,True,1496840000000.0,1496840000000.0,6,resign,black,15+15,antman724,1062,joe-brown,1071,d4 d5 Nc3 Bf5 Nxd5 Qxd5,D00,Queen's Pawn Game: Veresov Attack |  Alburt Defense,4,-9,9,black,1,0,0,2
+1768,1768,ea1svLYO,True,1499290000000.0,1499290000000.0,9,mate,white,10+0,mikiduda,1395,anderson447878,1273,e4 b6 Nf3 Bb7 Bc4 Bxe4 Ng5 f6 Bf7#,B00,Owen Defense,2,122,122,white,1,1,1,2
+1814,1814,2CKxscOK,False,1493340000000.0,1493350000000.0,2,outoftime,black,15+0,lkasperbauer,1038,andersongot,1331,e4 d5,B01,Scandinavian Defense,2,-293,293,black,1,0,0,2
+1921,1921,jbcrVMhU,True,1501370000000.0,1501370000000.0,3,outoftime,white,10+0,oceannnn,1375,brorael357,1332,d4 d5 Nf3,D02,Queen's Pawn Game: Zukertort Variation,3,43,43,white,1,1,1,2
+1946,1946,3K5kYPO8,True,1491530000000.0,1491530000000.0,1,resign,black,10+0,serik-astana,1464,brorael357,1355,g3,A00,Hungarian Opening,1,109,109,white,0,1,1,0
+1956,1956,XJ9s4FNH,True,1489290000000.0,1489290000000.0,2,outoftime,black,10+0,brorael357,1336,mnawdirqifuat,1516,e4 d5,B01,Scandinavian Defense,2,-180,180,black,1,0,0,2
+1958,1958,YI9iirSM,True,1489280000000.0,1489280000000.0,9,resign,white,10+0,levdor,1398,brorael357,1355,e4 e5 Nf3 d5 exd5 Qxd5 Nc3 e4 Nxd5,C40,Elephant Gambit,4,43,43,white,1,1,1,2
+1961,1961,8c1sF2CM,True,1496220000000.0,1496220000000.0,2,outoftime,black,150+180,sveenemand,1039,canturkoguz,1161,e4 e5,C20,King's Pawn Game,2,-122,122,black,1,0,0,2
+1962,1962,wX3EQAPu,True,1495010000000.0,1495010000000.0,2,resign,black,150+180,sveenemand,1055,poshgirl,1280,e3 e5,A00,Van't Kruijs Opening,1,-225,225,black,1,0,0,2
+1963,1963,rVHJzpo8,True,1494410000000.0,1494410000000.0,8,resign,black,10+0,sveenemand,1086,sergik91,1148,e3 d5 d3 Nc6 Qh5 Be6 Qxh7 Rxh7,A00,Van't Kruijs Opening,1,-62,62,black,1,0,0,2
+1965,1965,yPT5JaJx,False,1487670000000.0,1487670000000.0,4,resign,black,180+180,sveenemand,1091,fingers33,1171,e3 c5 d3 e5,A00,Van't Kruijs Opening,1,-80,80,black,1,0,0,2
+1983,1983,QGXLgc6L,True,1489010000000.0,1489010000000.0,3,resign,white,9+1,sneaky_bugger,1654,tactical_bishop,1345,b3 f6 Bb2,A01,Nimzo-Larsen Attack,1,309,309,white,1,1,1,2
+1984,1984,J62F4oVs,True,1489010000000.0,1489010000000.0,6,resign,black,9+1,tactical_bishop,1423,sneaky_bugger,1576,d4 e6 e4 Qh4 Bg5 Qxg5,C00,French Defense: Normal Variation,3,-153,153,black,1,0,0,2
+1986,1986,i4dYtT5Z,True,1489000000000.0,1489000000000.0,3,resign,black,10+0,tactical_bishop,1500,sneaky_bugger,1500,d4 e6 Bf4,A40,Horwitz Defense,2,0,0,same,0,0,0,0
+2028,2028,x1WpDqIT,True,1491260000000.0,1491260000000.0,6,resign,black,10+0,rinat_raf,1254,chicago_chess,1353,e4 e5 Nf3 Nc6 Nxe5 Nxe5,C44,Irish Gambit,5,-99,99,black,1,0,0,2
+2134,2134,XTiCByNu,True,1491750000000.0,1491750000000.0,5,resign,white,10+0,maximusmaxi,1821,ecstasydrug,1641,e4 e5 f4 d6 Nf3,C30,King's Gambit,3,180,180,white,1,1,1,2
+2310,2310,lOR8aHMk,False,1503770000000.0,1503770000000.0,6,draw,draw,40+20,iamnoobsince97,1500,chess_king3,1474,e4 c5 Nc3 d6 Bc4 Nc6,B23,Sicilian Defense: Closed Variation,3,26,26,white,0,1,1,1
+2346,2346,E3VQorHc,True,1504010000000.0,1504010000000.0,6,resign,black,15+15,cooldude1200,1091,adarsh2001,1203,e4 c5 Bc4 d6 Bxf7+ Kxf7,B20,Sicilian Defense: Bowdler Attack,3,-112,112,black,1,0,0,2
+2433,2433,msIqfn6q,True,1495610000000.0,1495610000000.0,8,resign,black,10+0,bastille114,1132,masterzyd,1258,e3 e5 Bc4 Qf6 Qf3 Qg6 Qd5 Nh6,A00,Van't Kruijs Opening,1,-126,126,black,1,0,0,2
+2439,2439,pRRzGygf,True,1495610000000.0,1495610000000.0,8,mate,black,10+0,sensey123,1448,masterzyd,1280,e4 e5 c4 Qh4 d3 Bc5 Nf3 Qxf2#,C20,English Opening: The Whale,3,168,168,white,0,1,1,0
+2464,2464,u8ggaevt,True,1495260000000.0,1495260000000.0,7,mate,white,10+0,masterzyd,1285,krizchess,1279,e4 Nc6 Bc4 f5 Qf3 fxe4 Qf7#,B00,Nimzowitsch Defense,2,6,6,white,1,1,1,2
+2467,2467,2FqRLD1n,True,1495240000000.0,1495240000000.0,9,mate,white,10+0,pavel21,1310,masterzyd,1304,e4 e5 Nf3 Nf6 Nxe5 Nxe4 Qf3 d5 Qxf7#,C42,Russian Game: Damiano Variation,6,6,6,white,1,1,1,2
+2484,2484,5WZ9903K,False,1491850000000.0,1491850000000.0,8,resign,white,30+0,mustapha_fouad,1500,theblairloggie,1364,e4 e5 Nf3 d5 Nc3 dxe4 Nxe4 Nc6,C40,Elephant Gambit,4,136,136,white,1,1,1,2
+2650,2650,NsSxoY8g,False,1499340000000.0,1499340000000.0,5,resign,white,10+0,thiagomarcal123,1465,willdaplum,1287,e4 e5 Qh5 Nf6 Qxe5+,C20,King's Pawn Game: Wayward Queen Attack |  Kiddie Countergambit,4,178,178,white,1,1,1,2
+2681,2681,9zlM9tPR,False,1486930000000.0,1486930000000.0,7,mate,white,15+0,dsom,1500,samiraloraei,1500,e4 e5 Bc4 c5 Qh5 d6 Qxf7#,C23,Bishop's Opening,3,0,0,same,0,0,0,0
+2704,2704,QGXLgc6L,True,1489010000000.0,1489010000000.0,3,resign,white,9+1,sneaky_bugger,1654,tactical_bishop,1345,b3 f6 Bb2,A01,Nimzo-Larsen Attack,1,309,309,white,1,1,1,2
+2705,2705,J62F4oVs,True,1489010000000.0,1489010000000.0,6,resign,black,9+1,tactical_bishop,1423,sneaky_bugger,1576,d4 e6 e4 Qh4 Bg5 Qxg5,C00,French Defense: Normal Variation,3,-153,153,black,1,0,0,2
+2707,2707,i4dYtT5Z,True,1489000000000.0,1489000000000.0,3,resign,black,10+0,tactical_bishop,1500,sneaky_bugger,1500,d4 e6 Bf4,A40,Horwitz Defense,2,0,0,same,0,0,0,0
+2727,2727,N5ZAfrx9,True,1486650000000.0,1486650000000.0,7,outoftime,white,10+0,jdy,1099,mauzi123,1198,e4 e5 d4 f5 Qd3 fxe4 Qxe4,C21,Center Game #2,3,-99,99,black,0,0,0,0
+2742,2742,KmM9OLtW,True,1486480000000.0,1486480000000.0,3,outoftime,white,15+15,jdy,1045,annonhaseyo,1080,e4 e5 d4,C21,Center Game #2,3,-35,35,black,0,0,0,0
+2788,2788,DDAXLGKp,True,1486520000000.0,1486520000000.0,6,resign,black,10+0,kyzuro,1375,jb007sf,1435,c4 b6 g3 Bb7 Bg2 Bxg2,A10,English Opening,1,-60,60,black,1,0,0,2
+2915,2915,agxGtAax,True,1485900000000.0,1485900000000.0,7,mate,white,15+0,businessman47,1131,apl020,1071,e4 c6 Bc4 e5 Qf3 b5 Qxf7#,C23,Bishop's Opening: Philidor Counterattack,4,60,60,white,1,1,1,2
+2926,2926,KkzphjC8,True,1486500000000.0,1486500000000.0,3,resign,white,10+0,nacim,1590,edenshaul,1388,c4 d6 Nc3,A10,English Opening,1,202,202,white,1,1,1,2
+2949,2949,eor6INZY,True,1500420000000.0,1500420000000.0,9,resign,white,19+19,dude_perfect,1231,costarica89,905,d4 d5 Nf3 Bf5 Bf4 Qd7 Ne5 Qe6 Nd2,D02,Queen's Pawn Game: Zukertort Variation,3,326,326,white,1,1,1,2
+3034,3034,BwXGCvBE,True,1486830000000.0,1486830000000.0,9,resign,white,10+0,hus1972,1102,krst,930,e4 Nf6 e5 Ne4 d3 Ng5 Bxg5 e6 Bxd8,B02,Alekhine Defense: Mokele Mbembe,4,172,172,white,1,1,1,2
+3118,3118,v2iBUV6J,True,1487380000000.0,1487380000000.0,7,resign,white,7+4,meccanoidg15,2173,racimov,2189,e4 d5 exd5 Qxd5 Nc3 Nc6 Nxd5,B01,Scandinavian Defense: Mieses-Kotroc Variation,4,-16,16,black,0,0,0,0
+3244,3244,yQQjoYGB,False,1503870000000.0,1503870000000.0,6,resign,white,10+0,brandonbos,1480,chessmate1357,1269,e4 e5 Nf3 Nc6 Nc3 d6,C46,Three Knights Opening,5,211,211,white,1,1,1,2
+3255,3255,ZOnWQk8z,True,1487560000000.0,1487560000000.0,5,resign,white,15+15,cawfree,1297,shreyposhiya,1346,e4 d6 d4 g5 g4,B07,Pirc Defense #5,3,-49,49,black,0,0,0,0
+3284,3284,9K96UN86,True,1500370000000.0,1500370000000.0,3,draw,draw,10+10,dahabi,1942,rex99,2119,e4 c5 c3,B22,Sicilian Defense: Alapin Variation,3,-177,177,black,0,0,0,1
+3414,3414,qwKfeTCN,False,1503150000000.0,1503150000000.0,5,resign,white,10+0,vinxitv,1733,cracking12345,1732,b3 Nf6 Bb2 e5 Bxe5,A01,Nimzo-Larsen Attack: Indian Variation,2,1,1,white,1,1,1,2
+3415,3415,uUTHWT8w,False,1502890000000.0,1502890000000.0,8,outoftime,black,10+0,cracking12345,1732,vinxitv,1733,e4 b6 d4 Bb7 Bd3 e6 Nf3 c5,B00,Owen Defense,2,-1,1,black,1,0,0,2
+3443,3443,nMm9t7YG,False,1482170000000.0,1482170000000.0,6,resign,black,10+5,butledge,1278,hick4u1219,1500,e4 e5 Bc4 d6 Qh5 Nh6,C23,Bishop's Opening,3,-222,222,black,1,0,0,2
+3444,3444,rThGMlRV,False,1482170000000.0,1482170000000.0,7,mate,white,15+0,betelgeuse1,1620,butledge,1278,e4 e5 Bc4 d6 Qh5 Nc6 Qxf7#,C23,Bishop's Opening,3,342,342,white,1,1,1,2
+3470,3470,H7E4hWqv,False,1485480000000.0,1485480000000.0,9,resign,white,40+10,king5891,1400,adrianjunior,1381,Nf3 d5 b3 e5 Nxe5 Bd6 Nf3 Nf6 Bb2,A06,Nimzowitsch-Larsen Attack,3,19,19,white,1,1,1,2
+3522,3522,cDucnLQh,True,1481990000000.0,1481990000000.0,4,resign,black,7+4,chessmaster987,1996,gmanderson,2193,f4 d5 Nf3 Nf6,A03,Bird Opening: Dutch Variation,2,-197,197,black,1,0,0,2
+3573,3573,6hOfGXn5,True,1481900000000.0,1481900000000.0,9,mate,white,15+0,b0nes,1251,binder47,1086,e4 c6 Qh5 Qc7 Bc4 Na6 Qxf7+ Kd8 Qxf8#,B10,Caro-Kann Defense,2,165,165,white,1,1,1,2
+3722,3722,0Dx0giMJ,False,1481990000000.0,1481990000000.0,8,resign,black,30+0,piley159,1144,ahm7777,1500,e4 e5 Bc4 Nc6 Qh5 g6 Qg5 Qxg5,C23,Bishop's Opening,3,-356,356,black,1,0,0,2
+3869,3869,fOVAgERZ,False,1487270000000.0,1487270000000.0,2,resign,white,8+0,ioansanders,1500,vladtepes26,1784,e4 e6,C00,French Defense #2,2,-284,284,black,0,0,0,0
+3879,3879,xyJVLOev,True,1496420000000.0,1496420000000.0,5,outoftime,white,10+0,lewispugdog,1046,alexmorato,986,e4 e5 Nc3 c6 Nf3,C27,Vienna Game,3,60,60,white,1,1,1,2
+3884,3884,Tok2vKal,True,1481660000000.0,1481660000000.0,8,resign,black,10+0,chessguy9001,1278,wolfbrotherwolf,1500,e4 g5 Nf3 b5 Nxg5 f6 f3 fxg5,B00,Borg Defense,2,-222,222,black,1,0,0,2
+3896,3896,GzAueRP7,False,1495130000000.0,1495130000000.0,5,resign,white,10+10,wisepanther,1370,ricardo_barbieri,1422,e4 e5 Nf3 f6 Bc4,C40,King's Pawn Game: Damiano Defense,4,-52,52,black,0,0,0,0
+3902,3902,Ka66jOVA,False,1492190000000.0,1492190000000.0,2,resign,black,5+30,minertyler100,1264,wisepanther,1507,e4 d6,B07,Pirc Defense #4,2,-243,243,black,1,0,0,2
+3982,3982,F5Dylbt6,True,1480700000000.0,1480700000000.0,6,mate,black,15+20,norris,1418,jvp,1588,h3 e5 f3 Qh4+ g3 Qxg3#,A00,Clemenz Opening,1,-170,170,black,1,0,0,2
+3984,3984,YCEKNJhX,False,1503920000000.0,1503920000000.0,2,outoftime,black,10+0,michaelfield,1761,yelilyina,1579,e4 c5,B20,Sicilian Defense,2,182,182,white,0,1,1,0
+4067,4067,P0He9I4m,True,1503760000000.0,1503760000000.0,9,mate,white,10+0,artmanua,1512,amateur_pawn_star,1490,e4 c5 c3 Nc6 Bc4 b6 Qb3 Bb7 Bxf7#,B22,Sicilian Defense: Alapin Variation,3,22,22,white,1,1,1,2
+4102,4102,R3nrXrqZ,False,1478910000000.0,1478910000000.0,9,resign,white,12+0,quazimodo,1342,om1665061,1221,e4 e5 Nf3 Nc6 Bc4 Bc5 d3 Qe7 O-O,C50,Italian Game: Giuoco Pianissimo,7,121,121,white,1,1,1,2
+4106,4106,9xlp4XvI,True,1474710000000.0,1474710000000.0,7,resign,white,5+8,minelkayra,1329,om1665061,1215,e4 e5 Qh5 g6 Qxe5+ Be7 Qxh8,C20,King's Pawn Game: Wayward Queen Attack,3,114,114,white,1,1,1,2
+4107,4107,mTVPiE7r,True,1474710000000.0,1474710000000.0,4,resign,white,8+8,gangioli,1325,om1665061,1227,e4 e5 Nf3 Nc6,C44,King's Knight Opening: Normal Variation,4,98,98,white,1,1,1,2
+4119,4119,bDcOkAPl,True,1481850000000.0,1481850000000.0,7,resign,white,8+0,xx_domi_xx,1302,coco2016,1351,e4 c5 Qg4 d6 Qxc8 Qxc8 Bb5+,B20,Sicilian Defense: Amazon Attack,3,-49,49,black,0,0,0,0
+4126,4126,y44Msw6h,True,1489940000000.0,1489940000000.0,7,mate,white,5+5,greenmachine,958,chipie1952,1274,e4 e5 Qh5 Nc6 Bc4 Nf6 Qxf7#,C20,King's Pawn Game: Wayward Queen Attack,3,-316,316,black,0,0,0,0
+4192,4192,K1AmmvZe,True,1479920000000.0,1479920000000.0,9,outoftime,white,5+10,davidsursuippe,1374,samuelpro,1115,e4 e6 d4 d5 f3 f5 c3 c6 Nd2,C00,French Defense,4,259,259,white,1,1,1,2
+4205,4205,HDwrruYt,True,1486420000000.0,1486420000000.0,2,resign,black,5+6,chessgeorge,1052,hugues2908,1304,d4 d5,D00,Queen's Pawn Game,2,-252,252,black,1,0,0,2
+4216,4216,7DOaoGeV,True,1455430000000.0,1455430000000.0,2,resign,white,10+5,carlosamadorsanchez,1112,phuckhu,1283,e4 d5,B01,Scandinavian Defense,2,-171,171,black,0,0,0,0
+4223,4223,pr10qXl4,True,1455200000000.0,1455200000000.0,4,resign,black,10+0,alle915,1141,carlosamadorsanchez,1175,e4 d5 Bc4 dxc4,B01,Scandinavian Defense,2,-34,34,black,1,0,0,2
+4310,4310,DvBbvHEo,True,1479420000000.0,1479420000000.0,9,resign,white,17+3,viamilitaris,918,synt3grate,996,e4 e5 Nf3 Nc6 d4 Bb4+ c3 Be7 Bc4,C44,Scotch Game,5,-78,78,black,0,0,0,0
+4366,4366,s2mBmi3p,True,1479950000000.0,1479950000000.0,9,resign,white,10+25,bharatt,1319,cliward132,1096,e3 d5 h3 e5 Qh5 g6 Qxe5+ Ne7 Qxh8,A00,Van't Kruijs Opening,1,223,223,white,1,1,1,2
+4512,4512,1YJSkH4F,True,1504230000000.0,1504230000000.0,9,resign,white,10+0,userx100,1227,jccz,1204,e4 e5 f4 exf4 Nf3 Qe7 d3 Qxe4+ dxe4,C34,King's Gambit Accepted |  King's Knight Gambit,5,23,23,white,1,1,1,2
+4594,4594,kkd8lWaZ,True,1477430000000.0,1477430000000.0,4,outoftime,black,1+12,zalupa_konya,1156,zoerichi,1005,e4 e5 Qf3 d6,C20,King's Pawn Game: Napoleon Attack,3,151,151,white,0,1,1,0
+4607,4607,b44uCNTN,True,1474200000000.0,1474200000000.0,9,mate,white,8+8,miguel_guerra1977,1569,fox26666,1276,e4 e5 Qh5 Nc6 Bc4 g6 Qf3 b6 Qxf7#,C20,King's Pawn Game: Wayward Queen Attack,3,293,293,white,1,1,1,2
+4624,4624,yZwvNSmX,False,1495920000000.0,1495920000000.0,2,resign,white,15+0,xxofficialmasterxx,1866,torturana,1500,e4 e5,C20,King's Pawn Game,2,366,366,white,1,1,1,2
+4625,4625,P14JYgF9,False,1495920000000.0,1495920000000.0,3,resign,black,15+0,torturana,1500,xxofficialmasterxx,1866,e4 c5 Nf3,B27,Sicilian Defense,3,-366,366,black,1,0,0,2
+4630,4630,XyipO93f,False,1471710000000.0,1471710000000.0,9,resign,white,15+0,xxofficialmasterxx,1866,flotten,1556,e4 c5 Nf3 d6 c3 Nf6 Be2 Nxe4 Qa4+,B50,Sicilian Defense: Delayed Alapin,5,310,310,white,1,1,1,2
+4697,4697,gZ9e51VE,True,1471380000000.0,1471380000000.0,9,resign,white,15+0,martinbigi,1570,nicholas9999,1750,d4 d5 c3 Nc6 e3 e5 Bb5 exd4 cxd4,D00,Queen's Pawn Game,2,-180,180,black,0,0,0,0
+4711,4711,3ysSReoe,True,1478440000000.0,1478450000000.0,3,resign,white,10+0,s1h3a1s0,1848,stve400231,1873,e4 e5 Nf3,C40,King's Knight Opening,3,-25,25,black,0,0,0,0
+4738,4738,fehuaLTD,True,1470920000000.0,1470920000000.0,2,outoftime,black,10+15,irishockey,1633,emadahmed,1287,e4 e5,C20,King's Pawn Game,2,346,346,white,0,1,1,0
+4755,4755,uxB4EezK,True,1498070000000.0,1498070000000.0,9,resign,white,10+0,cunha25,1455,jayblackington,1177,e4 e5 Nf3 Nc6 Bc4 Nge7 Ng5 h6 Nxf7,C50,Italian Game,5,278,278,white,1,1,1,2
+4795,4795,7Z4DZf68,False,1502120000000.0,1502120000000.0,5,resign,white,5+8,balan,1505,william_james_sidis,1500,e4 Nc6 d4 e6 Nf3,B00,King's Pawn Game: Nimzowitsch Defense,3,5,5,white,1,1,1,2
+4796,4796,b9SIcVDM,False,1500990000000.0,1500990000000.0,7,resign,white,15+0,eden7644,1613,william_james_sidis,1500,e4 d5 e5 e6 d4 f5 exf6,C02,French Defense: Advance Variation #3,5,113,113,white,1,1,1,2
+4885,4885,RZDzALCh,True,1477690000000.0,1477690000000.0,2,draw,draw,180+0,zoro94,1646,ammanian,1696,d4 Nf6,A45,Indian Game,2,-50,50,black,0,0,0,1
+4972,4972,AnnJL7OC,True,1469700000000.0,1469700000000.0,4,resign,black,6+8,chesspolio,1645,a-devi,1679,e4 c5 Nf3 d6,B50,Sicilian Defense,4,-34,34,black,1,0,0,2
+5016,5016,MV0y5hTy,True,1463960000000.0,1463960000000.0,4,resign,black,10+0,q_ban,1650,ramso101,1895,e3 e5 Nf3 e4,A00,Van't Kruijs Opening,1,-245,245,black,1,0,0,2
+5149,5149,BUu4DECY,False,1471020000000.0,1471020000000.0,2,outoftime,black,15+0,fdutka,1500,krishchennai93,1586,e4 e5,C20,King's Pawn Game,2,-86,86,black,1,0,0,2
+5174,5174,3LoBtHP8,True,1466380000000.0,1466380000000.0,2,outoftime,black,10+5,shibikoko,1392,blokh1n,1183,d4 d5,D00,Queen's Pawn Game,2,209,209,white,0,1,1,0
+5361,5361,Zvyx5Mpt,False,1497460000000.0,1497460000000.0,8,resign,white,20+0,pareshshel,1371,burks,1016,d4 Nf6 Bf4 Nc6 e3 e5 Bxe5 Ne4,A45,Indian Game,2,355,355,white,1,1,1,2
+5376,5376,oQviWdet,True,1481600000000.0,1481600000000.0,2,outoftime,black,15+15,burks,1034,somerandomguy23,1353,Nf3 Nf6,A04,Reti Opening #2,2,-319,319,black,1,0,0,2
+5547,5547,GHDD6TVr,False,1498890000000.0,1498890000000.0,4,resign,white,25+0,dersonx,1589,frankie0909,1739,e4 c5 Nf3 d6,B50,Sicilian Defense,4,-150,150,black,0,0,0,0
+5615,5615,nLRYvkJb,True,1460240000000.0,1460240000000.0,9,resign,white,9+0,heyjujube,1443,astueven7,1291,e3 c5 c3 d6 d4 Qa5 Qh5 cxd4 Qxa5,A00,Van't Kruijs Opening,1,152,152,white,1,1,1,2
+5751,5751,Vvyhb9TR,True,1502630000000.0,1502630000000.0,6,resign,black,7+3,eche777,1344,gabigs,1221,d4 d5 e3 Nf6 Nf3 Nc6,D04,Queen's Pawn Game: Colle System,5,123,123,white,0,1,1,0
+5831,5831,MHS8nIkb,False,1459630000000.0,1459630000000.0,2,resign,white,5+5,runcrazex,2270,hh88,1962,d4 e5,A40,Englund Gambit,2,308,308,white,1,1,1,2
+5856,5856,heTz3GrU,False,1458760000000.0,1458770000000.0,5,outoftime,white,180+0,grundlesniffer,1370,tomo1997,1500,d4 e5 e3 Bb4+ c3,A40,Englund Gambit Declined |  Reversed French,3,-130,130,black,0,0,0,0
+5884,5884,kj9H0Xnm,True,1478230000000.0,1478230000000.0,2,outoftime,black,10+0,kellyclarkson,1381,andicanrac,1651,e4 c5,B20,Sicilian Defense,2,-270,270,black,1,0,0,2
+5895,5895,cX7tWS2B,True,1457980000000.0,1457980000000.0,7,mate,white,9+0,siculus,1476,ethanherman911,1500,e4 e5 Bc4 Bc5 Qf3 Na6 Qxf7#,C20,Bishop's Opening: Boi Variation,4,-24,24,black,0,0,0,0
+5921,5921,BfmWE0ft,True,1457900000000.0,1457900000000.0,3,resign,white,10+2,ekinsler,1329,jackydawg,1547,d4 f6 e4,A40,Queen's Pawn,1,-218,218,black,0,0,0,0
+5922,5922,dFRyR3eo,True,1457900000000.0,1457900000000.0,9,resign,white,15+10,jackydawg,1541,hvaersjakk,1277,e4 e5 Nf3 d5 Nxe5 dxe4 Bc4 Bd6 Nxf7,C40,Elephant Gambit,4,264,264,white,1,1,1,2
+5958,5958,1Mn64gHN,False,1479960000000.0,1479960000000.0,2,resign,black,15+15,releasethebats,2156,apple99,2476,d4 d5,D00,Queen's Pawn Game,2,-320,320,black,1,0,0,2
+6079,6079,znKLI2KX,True,1460060000000.0,1460060000000.0,3,resign,white,10+13,timan22400,1515,bunnyloverto,1412,e4 b6 Bc4,B00,Owen Defense,2,103,103,white,1,1,1,2
+6192,6192,jWyV8cMm,True,1459810000000.0,1459810000000.0,7,resign,white,10+0,donutsaredelish,1842,alexkhan021,1703,e4 d5 exd5 Qxd5 Nc3 Nc6 Nxd5,B01,Scandinavian Defense: Mieses-Kotroc Variation,4,139,139,white,1,1,1,2
+6234,6234,EBAZeafV,True,1454620000000.0,1454620000000.0,7,resign,white,20+3,amorim,1322,true_god,1142,e4 Nf6 Nc3 Nc6 Nf3 e5 Bc4,C46,Four Knights Game: Italian Variation,7,180,180,white,1,1,1,2
+6298,6298,hkkLApVi,True,1454800000000.0,1454800000000.0,7,mate,white,7+3,lightfoot,1230,lilbigjay,1170,e4 c6 Bc4 Na6 Qh5 h6 Qxf7#,B00,Caro-Kann Defense: Hillbilly Attack,3,60,60,white,1,1,1,2
+6419,6419,q4p3b940,True,1453860000000.0,1453860000000.0,3,resign,white,5+10,james225,1359,dpoty,1401,e4 e5 f4,C30,King's Gambit,3,-42,42,black,0,0,0,0
+6483,6483,dyDPGGQF,False,1458510000000.0,1458510000000.0,2,resign,black,15+0,mahmoud_safyan,1649,doomchess,1703,e4 e5,C20,King's Pawn Game,2,-54,54,black,1,0,0,2
+6484,6484,u3HuYG0d,False,1458510000000.0,1458510000000.0,3,resign,white,15+0,doomchess,1703,mahmoud_safyan,1649,e4 e5 Nf3,C40,King's Knight Opening,3,54,54,white,1,1,1,2
+6492,6492,Vx21Arnp,False,1458480000000.0,1458480000000.0,9,resign,white,6+15,georgethes,1670,mahmoud_safyan,1577,e4 e5 f4 exf4 Nf3 h6 Bc4 Nc6 d4,C34,King's Gambit Accepted |  Becker Defense,6,93,93,white,1,1,1,2
+6506,6506,qbXm6cxG,True,1453000000000.0,1453000000000.0,2,resign,black,25+1,a55s72,1670,ak6664,1345,f4 c6,A02,Bird Opening,1,325,325,white,0,1,1,0
+6516,6516,w9b2tcka,False,1502450000000.0,1502450000000.0,8,resign,white,20+20,mehmetali_t,1518,sudebala,1760,e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4,C47,Four Knights Game: Scotch Variation Accepted,8,-242,242,black,0,0,0,0
+6518,6518,SL1o1reb,False,1502450000000.0,1502450000000.0,8,resign,white,20+20,mehmetali_t,1518,sollagan,1368,e4 e5 Nf3 f5 exf5 d6 Bd3 Nf6,C40,Latvian Gambit Accepted,5,150,150,white,1,1,1,2
+6521,6521,Ic6srxxl,False,1502450000000.0,1502450000000.0,8,draw,draw,20+25,mehmetali_t,1518,kadirkv,1875,e4 e6 d4 d5 e5 c5 c3 Nc6,C02,French Defense: Advance Variation,8,-357,357,black,0,0,0,1
+6524,6524,CfOx08mu,False,1502450000000.0,1502450000000.0,5,resign,white,20+60,a_arda_y,1500,mehmetali_t,1518,e4 e5 Nf3 Nc6 Bb5,C60,Ruy Lopez,5,-18,18,black,0,0,0,0
+6675,6675,f5Us4BuT,False,1452390000000.0,1452390000000.0,2,resign,black,8+0,wblake66,2021,tony995,1949,e4 e5,C20,King's Pawn Game,2,72,72,white,0,1,1,0
+6686,6686,ONp4KGhI,True,1478470000000.0,1478470000000.0,9,mate,white,10+0,houseof,1286,smartguy101,1067,e3 e5 d4 d6 Bc4 Nc6 Qf3 h5 Qxf7#,A40,Englund Gambit Declined |  Reversed French,3,219,219,white,1,1,1,2
+6801,6801,q8yflvqV,False,1479840000000.0,1479840000000.0,5,outoftime,white,15+0,hugodrx,1500,dhernandez101,1418,e3 e5 c3 d5 Bb5+,A00,Van't Kruijs Opening,1,82,82,white,1,1,1,2
+6811,6811,N0o4EuDt,True,1478300000000.0,1478300000000.0,9,resign,white,6+5,dhernandez101,1430,marathoner11,1187,e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Ke7 Nxf7,C57,Italian Game: Two Knights Defense |  Knight Attack,7,243,243,white,1,1,1,2
+6894,6894,88qG4Kxf,False,1504090000000.0,1504090000000.0,5,resign,black,10+5,sirtetris,2055,thawinter,2036,Nf3 Nf6 Nc3 d5 d4,A04,Reti Opening #2,2,19,19,white,0,1,1,0
+6920,6920,l9eKM738,False,1479690000000.0,1479690000000.0,9,resign,white,25+0,almachess,1628,jamesrob0t123,1869,d4 Nf6 d5 e6 dxe6 fxe6 Bg5 Be7 c3,A45,Indian Game: Pawn Push Variation,3,-241,241,black,0,0,0,0
+6929,6929,bRqbt11Q,True,1452990000000.0,1452990000000.0,6,resign,black,20+40,mangonian,1141,ivanbus,1328,e4 e5 Nf3 Nc6 d4 Nf6,C44,Scotch Game,5,-187,187,black,1,0,0,2
+6956,6956,9Ih9CYkE,False,1451420000000.0,1451420000000.0,9,resign,black,10+10,ivanbus,1278,marckflow,1135,e4 d5 Qf3 d4 Bc4 Nf6 c3 Bg4 Qf5,B01,Scandinavian Defense,2,143,143,white,0,1,1,0
+6968,6968,zr63v9Rk,True,1452620000000.0,1452620000000.0,9,resign,white,15+0,marcosaba,2181,aqwert,2327,e4 d5 d4 dxe4 Nc3 e6 Nxe4 Nc6 c3,C10,French Defense: Rubinstein Variation,6,-146,146,black,0,0,0,0
+7115,7115,GwMVZKIQ,True,1504400000000.0,1504410000000.0,3,draw,draw,5+8,charkie,1292,tahastanly,1339,d4 d5 e3,D00,Queen's Pawn Game #2,3,-47,47,black,0,0,0,1
+7229,7229,BUIyhN4x,True,1504150000000.0,1504150000000.0,4,resign,black,10+0,messiosousa,1425,chez91,1525,d4 d5 e4 dxe4,D00,Blackmar-Diemer Gambit,3,-100,100,black,1,0,0,2
+7276,7276,iDcnvGeV,False,1503370000000.0,1503370000000.0,4,resign,white,10+0,dat_coo82,1565,dipset,1453,e4 a6 g3 c6,B00,St. George Defense,2,112,112,white,1,1,1,2
+7439,7439,615NKUYx,True,1480570000000.0,1480570000000.0,7,outoftime,white,5+8,thatguythatistr,1549,sayul,1344,d4 e5 dxe5 c5 e3 Qa5+ Bd2,A40,Englund Gambit,2,205,205,white,1,1,1,2
+7451,7451,AZm8oHjW,True,1447440000000.0,1447440000000.0,9,resign,white,12+3,civata,1422,hockeytv,1065,e4 e5 Qh5 g6 Qxe5+ Be7 Qxh8 Bf8 Qxg8,C20,King's Pawn Game: Wayward Queen Attack,3,357,357,white,1,1,1,2
+7454,7454,2megnvKB,True,1447430000000.0,1447430000000.0,6,resign,black,10+0,hockeytv,1102,whynot46,1323,e3 e5 Bc4 Nf6 Qh5 Nxh5,A00,Van't Kruijs Opening,1,-221,221,black,1,0,0,2
+7529,7529,CNXZuGKF,True,1477140000000.0,1477140000000.0,4,resign,black,15+0,iklit,1141,hamidreza,1358,d4 d5 e4 dxe4,D00,Blackmar-Diemer Gambit,3,-217,217,black,1,0,0,2
+7530,7530,jhMjICvx,True,1477140000000.0,1477140000000.0,7,resign,white,15+0,hamidreza,1353,iklit,1148,e4 e5 Qh5 g6 Qxe5+ Qe7 Qxh8,C20,King's Pawn Game: Wayward Queen Attack,3,205,205,white,1,1,1,2
+7602,7602,B2bRaocj,False,1484260000000.0,1484260000000.0,4,mate,black,10+2,kreedome,1500,flawed,1829,f4 e5 g4 Qh4#,A02,Bird Opening: From's Gambit,2,-329,329,black,1,0,0,2
+7651,7651,pV18ADPQ,False,1445090000000.0,1445090000000.0,4,draw,draw,150+8,willoh101,1505,flaizhen,1500,d4 d5 Nc3 Nf6,D01,Queen's Pawn Game: Chigorin Variation,4,5,5,white,0,1,1,1
+7733,7733,1vLLQBh7,True,1476380000000.0,1476380000000.0,8,resign,black,10+0,b6a8h,1576,vastas,1636,b4 d5 g3 e5 Bg2 Nf6 Nc3 Bxb4,A00,Hungarian Opening: Buecker Gambit,5,-60,60,black,1,0,0,2
+7734,7734,zK5lfj6K,True,1476380000000.0,1476380000000.0,8,mate,black,10+0,b6a8h,1593,pspsps12,1348,c4 e5 Nc3 Bc5 g3 Qf6 Bg2 Qxf2#,A21,English Opening: King's English Variation |  Reversed Sicilian,3,245,245,white,0,1,1,0
+7771,7771,DZsimp1h,True,1443350000000.0,1443350000000.0,3,resign,white,15+0,leptiantdu29,815,xamio,982,e4 e5 Nf3,C40,King's Knight Opening,3,-167,167,black,0,0,0,0
+7777,7777,LU9gpaJJ,True,1443060000000.0,1443060000000.0,9,mate,white,15+8,elboukak,1240,xamio,982,e4 c5 Bc4 g6 Qf3 Nf6 e5 Nh5 Qxf7#,B20,Sicilian Defense: Bowdler Attack,3,258,258,white,1,1,1,2
+7875,7875,jIaBCQzI,True,1502640000000.0,1502640000000.0,7,resign,white,10+0,angel2006,1858,majstor2650,1718,e4 c5 Nf3 Nc6 c3 c4 Bxc4,B30,Sicilian Defense: Old Sicilian,4,140,140,white,1,1,1,2
+7895,7895,5QrJWd8l,True,1442930000000.0,1442930000000.0,5,draw,draw,10+0,hebi,1357,flo_fox,1471,e4 d5 Nf3 dxe4 Nh4,A06,Zukertort Opening: Tennison Gambit,3,-114,114,black,0,0,0,1
+7918,7918,TjurH9Gx,False,1448580000000.0,1448670000000.0,2,outoftime,black,15+0,slimes1,1500,baccola89,1382,d4 d5,D00,Queen's Pawn Game,2,118,118,white,0,1,1,0
+8249,8249,fIXngSRy,False,1438640000000.0,1438640000000.0,3,outoftime,white,10+0,reredeg,1102,killoilll,1069,e4 d5 Qf3,B01,Scandinavian Defense,2,33,33,white,1,1,1,2
+8258,8258,oAjzLYGR,True,1438300000000.0,1438300000000.0,7,resign,white,5+8,ali_zarrabi,1286,little-fox,1225,e3 e5 Qh5 g6 Qxe5+ Be7 Qxh8,A00,Van't Kruijs Opening,1,61,61,white,1,1,1,2
+8389,8389,u26bXYrF,True,1481000000000.0,1481000000000.0,7,resign,white,10+0,youralterego,2262,thesofaking,2037,c4 e5 Nc3 Nf6 Nf3 Nc6 e3,A28,English Opening: King's English Variation |  Four Knights Variation |  Quiet Line #3,7,225,225,white,1,1,1,2
+8399,8399,NGE2umJp,False,1434980000000.0,1434980000000.0,2,resign,white,20+10,primate,1049,isuckatchess91,1275,e3 d5,A00,Van't Kruijs Opening,1,-226,226,black,0,0,0,0
+8444,8444,fjuG3DFA,True,1435390000000.0,1435390000000.0,2,resign,black,5+8,anudeep_nani1501,1430,tjchess,1366,e4 e6,C00,French Defense #2,2,64,64,white,0,1,1,0
+8666,8666,gf3KHIbR,False,1440760000000.0,1440770000000.0,2,resign,black,15+5,alpervsmagnus,1401,jonas12,1612,e4 d6,B07,Pirc Defense #4,2,-211,211,black,1,0,0,2
+8694,8694,HsiY9WRG,True,1436130000000.0,1436130000000.0,4,outoftime,black,5+8,wave_wall,1543,nederlander2,1466,e4 e5 Nf3 Nc6,C44,King's Knight Opening: Normal Variation,4,77,77,white,0,1,1,0
+8802,8802,lNjpZ80C,True,1486920000000.0,1486920000000.0,3,resign,white,8+10,valeriy56,1639,jennywooz,1504,d4 d5 Nf3,D02,Queen's Pawn Game: Zukertort Variation,3,135,135,white,1,1,1,2
+8808,8808,Y9ZuB73w,True,1426890000000.0,1426890000000.0,6,outoftime,black,4+8,heydar,1966,zubajda,1616,e4 e5 Nf3 Nc6 Bb5 Nge7,C60,Ruy Lopez: Cozio Defense,6,350,350,white,0,1,1,0
+8811,8811,IZMTlSvo,False,1491510000000.0,1491510000000.0,4,draw,draw,20+60,coachaleks,1992,apostolov,1811,e4 a6 Nf3 Nc6,B00,St. George Defense,2,181,181,white,0,1,1,1
+8835,8835,6g8kXohd,True,1479600000000.0,1479600000000.0,8,resign,white,13+12,tidalbutt,1403,hanscha5613,1388,e4 Nc6 d4 Nf6 d5 Nd4 Qxd4 d6,B00,King's Pawn Game: Nimzowitsch Defense,3,15,15,white,1,1,1,2
+8849,8849,B9edNYCM,True,1478890000000.0,1478890000000.0,8,draw,draw,15+15,maxim2009,1518,tidalbutt,1431,e4 d6 Bb5+ c6 Bc4 g6 Nc3 Bg7,B07,Pirc Defense #4,2,87,87,white,0,1,1,1
+8871,8871,AZQS1PsZ,True,1424730000000.0,1424730000000.0,3,draw,draw,7+6,lumil,1880,justanotherguy321,1886,e4 e5 Bc4,C23,Bishop's Opening,3,-6,6,black,0,0,0,1
+8876,8876,Q7T4S4nH,True,1426820000000.0,1426820000000.0,3,draw,draw,10+2,alex_22,1563,salmonfish,1396,e4 e5 Nf3,C40,King's Knight Opening,3,167,167,white,0,1,1,1
+8981,8981,ONUQ8gPQ,True,1495180000000.0,1495180000000.0,3,draw,draw,10+0,abdel19,1677,nullbyte,1716,d4 c6 c4,A40,Queen's Pawn,1,-39,39,black,0,0,0,1
+9081,9081,22tW8ArG,False,1423500000000.0,1423500000000.0,5,outoftime,white,11+7,xadji,1706,bdeathkiller,1402,a3 Nc6 e4 d6 Nc3,A00,Anderssen Opening,1,304,304,white,1,1,1,2
+9083,9083,puTB7LWh,True,1422480000000.0,1422480000000.0,5,resign,white,3+9,bdeathkiller,1348,poorgen,1545,Nh3 Na6 Na3 Nh6 f4,E00,Amar Opening,1,-197,197,black,0,0,0,0
+9106,9106,Kvs4ElAL,False,1436880000000.0,1436880000000.0,4,resign,white,10+10,dr_king_schultz,1775,gomex,1514,f3 e5 g4 d5,A00,Gedult's Opening,1,261,261,white,1,1,1,2
+9182,9182,snbBQo3U,True,1421160000000.0,1421160000000.0,7,mate,white,20+8,mateushn,1350,theking1234,1500,e4 e5 Qf3 Nf6 Bc4 Nxe4 Qxf7#,C20,King's Pawn Game: Napoleon Attack,3,-150,150,black,0,0,0,0
+9256,9256,hJ3orVeR,False,1419980000000.0,1419980000000.0,3,resign,white,15+5,bqfun,1500,acuadros,1500,e4 c5 Nc3,B23,Sicilian Defense: Closed Variation,3,0,0,same,0,0,0,0
+9257,9257,4T31cYDX,True,1504010000000.0,1504010000000.0,9,resign,white,10+0,kosior,1581,vzg100,1631,e4 e5 Nf3 Nf6 Bc4 h6 Nxe5 d6 Nxf7,C42,Russian Game: Urusov Gambit,5,-50,50,black,0,0,0,0
+9286,9286,cr5iuIrQ,True,1425390000000.0,1425390000000.0,3,outoftime,white,6+8,dmka,1362,arfhan,1265,e4 d5 e5,B01,Scandinavian Defense,2,97,97,white,1,1,1,2
+9287,9287,cr5iuIrQ,True,1425385753435.0,1425386308759.0,3,outoftime,white,6+8,dmka,1362,arfhan,1265,e4 d5 e5,B01,Scandinavian Defense,2,97,97,white,1,1,1,2
+9337,9337,XDKSUJSm,True,1446782057445.0,1446782110254.0,9,resign,white,5+5,kaspolsen2000,1392,improbablyhigh,1483,e4 c5 Nf3 g6 d4 cxd4 Qxd4 Bg7 Qxg7,A42,Sicilian Defense: Hyperaccelerated Fianchetto,5,-91,91,black,0,0,0,0
+9349,9349,lYEg18Ip,False,1430193948266.0,1430193986328.0,4,resign,white,5+8,hadikhan,1500,improbablyhigh,1479,e3 d6 Qf3 c6,A00,Van't Kruijs Opening,1,21,21,white,1,1,1,2
+9416,9416,Uiq79Uha,True,1421057420135.0,1421057453165.0,7,mate,white,8+0,samyaksingh,1271,salosalo1,1130,e4 e5 Qh5 Bc5 Bc4 Bb4 Qxf7#,C20,King's Pawn Game: Wayward Queen Attack,3,141,141,white,1,1,1,2
+9443,9443,otdzaTLb,False,1419292305826.0,1419292427446.0,3,resign,white,35+15,eric_s,1240,blazzika,1161,e4 e5 Nf3,C40,King's Knight Opening,3,79,79,white,1,1,1,2
+9521,9521,rZDhnp9r,True,1399448875625.0,1399448940534.0,4,resign,white,180+180,qwertygotousakorea,1240,qwertygotousakorea,1240,e4 e5 f3 d5,C20,King's Pawn Game: King's Head Opening #2,3,0,0,same,0,0,0,0
+9569,9569,wyq18DYh,False,1416777530669.0,1416779237812.0,2,outoftime,black,18+18,tetra,1500,ramin6009,1500,e4 c5,B20,Sicilian Defense,2,0,0,same,0,0,0,0
+9608,9608,RuHlwQEe,True,1416239685161.0,1416239692770.0,2,outoftime,black,0+16,yht,2073,masterbigsuff,2257,e4 d5,B01,Scandinavian Defense,2,-184,184,black,1,0,0,2
+9609,9609,qyyJeVj8,True,1416239592833.0,1416239620816.0,4,outoftime,black,0+16,yht,2104,masterbigsuff,2081,e4 d5 f4 e6,A03,Bird Opening: Williams Gambit,3,23,23,white,0,1,1,0
+9728,9728,ZeqBvl9X,True,1420225202349.0,1420225222159.0,3,resign,white,10+0,tobinn,1146,kraloyun,996,e4 e6 d4,C00,French Defense: Normal Variation,3,150,150,white,1,1,1,2
+9738,9738,SayF8QDM,True,1414352830082.0,1414352844033.0,2,resign,black,5+8,superozgur,1500,ozguragarr,1246,e4 e5,C20,King's Pawn Game,2,254,254,white,0,1,1,0
+9881,9881,9SEHpnaw,True,1412976400624.0,1412977790408.0,6,outoftime,black,15+0,pooperic,1101,eolo999,1478,a4 Nf6 e4 d6 e5 dxe5,A00,Ware Opening,1,-377,377,black,1,0,0,2
+9885,9885,xUUxUYCT,True,1412949275116.0,1412949295533.0,3,resign,white,10+0,newbieee,1236,pooperic,1150,e4 b5 d3,B00,King's Pawn,1,86,86,white,1,1,1,2
+9888,9888,ihi2tt2Y,True,1412863352616.0,1412863603619.0,9,resign,white,10+8,pooperic,1099,denisoc,1290,e3 e5 f4 c6 fxe5 Na6 e6 dxe6 g4,A00,Van't Kruijs Opening,1,-191,191,black,0,0,0,0
+9889,9889,TdvWu2Vv,True,1412863290996.0,1412863323768.0,6,mate,black,10+8,pooperic,1139,denisoc,1283,g4 e5 f3 c6 f4 Qh4#,A00,Grob Opening,1,-144,144,black,1,0,0,2
+9895,9895,sW0HQVBS,True,1412818400113.0,1412818712485.0,2,outoftime,black,5+5,pooperic,988,morochia,1056,a4 e5,A00,Ware Opening,1,-68,68,black,1,0,0,2
+9985,9985,G5jWICP0,True,1476714312435.0,1476714319428.0,2,resign,black,180+180,drakon1,943,chiggen,1319,e3 c5,A00,Van't Kruijs Opening,1,-376,376,black,1,0,0,2
+9986,9986,Na0lOd95,True,1476714295278.0,1476714300317.0,2,resign,white,180+180,chiggen,1306,drakon1,953,e4 d6,B07,Pirc Defense #4,2,353,353,white,1,1,1,2
+9987,9987,X1hUH5gY,True,1476714281611.0,1476714287189.0,2,resign,white,180+180,chiggen,1291,drakon1,965,e4 d5,B01,Scandinavian Defense,2,326,326,white,1,1,1,2
+9988,9988,F8Gembza,True,1476714263648.0,1476714272745.0,2,resign,white,180+180,chiggen,1271,drakon1,979,e4 d5,B01,Scandinavian Defense,2,292,292,white,1,1,1,2
+9992,9992,Ni9zp6Gh,True,1409060655170.0,1409060730826.0,9,mate,white,20+0,boord,1393,dakotarain,1195,e4 e5 Nf3 Nf6 Nxe5 Nxe4 Qf3 d6 Qxf7#,C42,Russian Game: Damiano Variation,6,198,198,white,1,1,1,2
+10004,10004,xemwuhlw,False,1379370152288.0,1379370211903.0,7,resign,white,8+5,kamilahhuds,1023,charles8,879,e4 e5 c4 Qh4 Nf3 Qxe4+ Be2,C20,English Opening: The Whale,3,144,144,white,1,1,1,2
+10030,10030,I0oc64kV,True,1408734462123.0,1408734510123.0,3,resign,white,5+8,-mati-,1252,astronautearl101,1168,e4 f6 Qh5+,B00,Barnes Defense,2,84,84,white,1,1,1,2
+10051,10051,an552HaC,True,1416467254907.0,1416467845535.0,9,outoftime,white,9+1,hishamtheman,1144,bashmack38,1226,d4 c5 e4 Qa5+ Bd2 Qb6 Nc3 Qb5 Bxb5,B21,Sicilian Defense: Smith-Morra Gambit #2,3,-82,82,black,0,0,0,0
+10057,10057,zrV9d7AV,True,1411960308075.0,1411960317445.0,2,resign,black,5+17,amazing-grace,1358,chessderek,1726,e3 e6,A00,Van't Kruijs Opening,1,-368,368,black,1,0,0,2
+10058,10058,bZG3mAdD,True,1411960297006.0,1411960306274.0,2,resign,white,5+17,chessderek,1720,amazing-grace,1405,e3 e6,A00,Van't Kruijs Opening,1,315,315,white,1,1,1,2
+10059,10059,IzxQJHvr,True,1411960271605.0,1411960295263.0,2,resign,black,5+17,amazing-grace,1500,chessderek,1713,e4 b6,B00,Owen Defense,2,-213,213,black,1,0,0,2
+10061,10061,qpo9FDuq,True,1408131255340.0,1408131306935.0,4,resign,white,10+0,howichok,1448,julieana,1181,d4 Nh6 d5 g6,A40,Queen's Pawn,1,267,267,white,1,1,1,2
+10062,10062,zgl3WrtY,True,1408129912862.0,1408130538299.0,7,outoftime,white,10+0,lish,1573,julieana,1403,e4 g6 Bc4 Bh6 Ne2 f6 Bxg8,B06,Modern Defense,2,170,170,white,1,1,1,2
+10065,10065,v7YcjSBD,True,1408129384077.0,1408129873075.0,3,outoftime,white,8+10,hector59john,1842,julieana,1500,e4 f6 Bc4,B00,Barnes Defense,2,342,342,white,1,1,1,2
+10067,10067,p9ZulUSV,True,1408129117743.0,1408129532190.0,5,outoftime,white,6+7,hersil,1853,julieana,1500,e4 Nh6 d4 Na6 Nf3,B00,Hippopotamus Defense #2,2,353,353,white,1,1,1,2
+10077,10077,TeYgeZug,True,1407561580541.0,1407563562772.0,2,outoftime,black,15+15,amron,1839,thecastle,1765,d4 d5,D00,Queen's Pawn Game,2,74,74,white,0,1,1,0
+10120,10120,M308g9tf,True,1405947287784.0,1405947295241.0,3,outoftime,white,0+15,athena1234,1325,voodooo,1249,e4 d5 Be2,B01,Scandinavian Defense,2,76,76,white,1,1,1,2
+10132,10132,fTTse2T9,True,1405612620571.0,1405612641593.0,3,resign,white,2+10,voodooo,1202,flettcher,1261,Nf3 e5 Nxe5,A04,Zukertort Opening: Ross Gambit,2,-59,59,black,0,0,0,0
+10170,10170,rPjfCD4s,False,1408063549859.0,1408063667018.0,5,resign,white,10+15,escorpion,1392,nicholas130,1293,e4 e5 Bc4 Nf6 Nc3,C26,Vienna Game: Stanley Variation,5,99,99,white,1,1,1,2
+10266,10266,3i35J7E0,False,1402364376946.0,1402364507781.0,8,resign,white,180+120,franco47,1261,rieck,1174,e4 e5 d4 Nc6 dxe5 Nxe5 Qd5 d6,B00,Nimzowitsch Defense: Kennedy Variation,4,87,87,white,1,1,1,2
+10336,10336,UXYbaW47,False,1400101344054.0,1400101888904.0,8,outoftime,black,8+0,chessatwar_99,1506,idex,1282,d4 b6 Nf3 Bb7 Bf4 d6 e3 Nf6,A40,English Defense #2,2,224,224,white,0,1,1,0
+10337,10337,H4Y6aUwX,False,1400101288854.0,1400101311328.0,3,draw,draw,2+40,kaster-2002,1408,chessatwar_99,1570,Nf3 d5 d4,D02,Queen's Pawn Game: Zukertort Variation,3,-162,162,black,0,0,0,1
+10366,10366,cWsEywJQ,False,1400978452466.0,1400978479594.0,3,resign,black,10+10,redwood,1412,nelasker,1485,e4 c5 Nf3,B27,Sicilian Defense,3,-73,73,black,1,0,0,2
+10379,10379,Pwtfvumx,False,1395268278436.0,1395268561024.0,8,resign,white,5+8,redwood,1678,redwood,1678,e3 e6 Qh5 g6 Qh3 Qh4 Qg4 Qxg4,A00,Van't Kruijs Opening,1,0,0,same,0,0,0,0
+10412,10412,bIEBCC9G,True,1402079520196.0,1402079555704.0,8,resign,black,10+0,penesin,1391,i_am_mariam,1378,e4 e5 d4 exd4 Qxd4 Nc6 Bb5 Nxd4,C22,Center Game: Normal Variation,6,13,13,white,0,1,1,0
+10419,10419,NhGYnJFZ,False,1433944043875.0,1433944064567.0,4,resign,black,5+8,libertas,1415,lubo10,1466,d4 Nf6 Nc3 d5,D01,Queen's Pawn Game: Chigorin Variation,4,-51,51,black,1,0,0,2
+10448,10448,blhg30qk,True,1397981430080.0,1397981505581.0,3,resign,white,11+2,cocoronco123,1500,scardanelli,1202,Na3 e5 Rab1,A00,Sodium Attack,1,298,298,white,1,1,1,2
+10597,10597,j67nCume,False,1395855557157.0,1395855587748.0,6,resign,black,7+2,mohammad1534,1325,great-mate-super-gre,1620,e4 e5 Bc4 Nf6 Qh5 Nxh5,C24,Bishop's Opening: Berlin Defense,4,-295,295,black,1,0,0,2
+10607,10607,dfzScT9T,True,1395153191469.0,1395154114753.0,7,outoftime,white,15+0,tumla,1245,austindecoder,906,Nc3 e6 e4 f6 Qf3 Qe7 Bc4,C00,French Defense: Queen's Knight,3,339,339,white,1,1,1,2
+10608,10608,IZNcJohU,False,1395079546060.0,1395079597184.0,5,resign,white,5+15,dus,1090,austindecoder,837,e4 f6 d4 c6 Nf3,B00,Barnes Defense,2,253,253,white,1,1,1,2
+10615,10615,l8c3NsKI,True,1394725719095.0,1394725757327.0,7,mate,white,4+180,denry,1129,austindecoder,954,e4 a6 Qh5 Ra7 Bc4 Nf6 Qxf7#,B00,St. George Defense,2,175,175,white,1,1,1,2
+10617,10617,pOhqdsDX,True,1394785218853.0,1394786098911.0,2,outoftime,black,14+10,fasd,1233,ribari,1391,e4 e5,C20,King's Pawn Game,2,-158,158,black,1,0,0,2
+10619,10619,BYtBrFFr,True,1394784161888.0,1394787812085.0,2,outoftime,black,30+12,fasd,1300,zenz,1064,e4 e5,C20,King's Pawn Game,2,236,236,white,0,1,1,0
+10635,10635,jKIr9VGq,True,1393181024637.0,1393181333840.0,2,outoftime,black,5+8,hurican,1720,axes,1500,b3 e5,A01,Nimzo-Larsen Attack: Modern Variation,2,220,220,white,0,1,1,0
+10660,10660,OUhU84P8,True,1393958292513.0,1393958299581.0,2,resign,black,5+8,thebestofthebad,965,projetoxadrez,1338,e4 e5,C20,King's Pawn Game,2,-373,373,black,1,0,0,2
+10661,10661,koNTdAb5,True,1393958284440.0,1393958290160.0,2,resign,white,5+8,projetoxadrez,1335,thebestofthebad,981,e4 d5,B01,Scandinavian Defense,2,354,354,white,1,1,1,2
+10662,10662,GIFSBoOO,True,1393958275799.0,1393958282374.0,2,resign,black,5+8,thebestofthebad,981,projetoxadrez,1335,d4 d5,D00,Queen's Pawn Game,2,-354,354,black,1,0,0,2
+10663,10663,fmknzWv3,True,1393958267451.0,1393958273398.0,2,resign,white,5+8,projetoxadrez,1332,thebestofthebad,1001,e4 Nh6,B00,Hippopotamus Defense #2,2,331,331,white,1,1,1,2
+10664,10664,uaOhh5yA,True,1393958258215.0,1393958264926.0,2,resign,black,5+8,thebestofthebad,1025,projetoxadrez,1328,d4 d5,D00,Queen's Pawn Game,2,-303,303,black,1,0,0,2
+10665,10665,Ff2jMUU7,True,1393958248466.0,1393958256222.0,2,resign,white,5+8,projetoxadrez,1324,thebestofthebad,1058,e4 Nc6,B00,Nimzowitsch Defense,2,266,266,white,1,1,1,2
+10666,10666,r0FWFuOI,True,1393958236954.0,1393958244153.0,2,resign,black,5+8,thebestofthebad,1106,projetoxadrez,1319,d4 d5,D00,Queen's Pawn Game,2,-213,213,black,1,0,0,2
+10667,10667,4Su68tU5,True,1393958228721.0,1393958234269.0,2,resign,white,5+8,projetoxadrez,1319,thebestofthebad,1106,e4 e6,C00,French Defense #2,2,213,213,white,1,1,1,2
+10668,10668,A4itigSz,True,1393958217121.0,1393958225511.0,2,resign,black,5+8,thebestofthebad,1197,projetoxadrez,1312,d3 e5,A00,Mieses Opening: Reversed Rat,2,-115,115,black,1,0,0,2
+10669,10669,CCWo4ltH,True,1393958205457.0,1393958212047.0,2,resign,white,5+8,projetoxadrez,1302,thebestofthebad,1500,e4 e6,C00,French Defense #2,2,-198,198,black,0,0,0,0
+10742,10742,IV4zA3ur,True,1399659199393.0,1399659572743.0,3,outoftime,white,6+20,szinuhe,1427,mohammad_baharan,1399,e4 e5 Nf3,C40,King's Knight Opening,3,28,28,white,1,1,1,2
+10748,10748,cWaOg91p,True,1399229946761.0,1399230102318.0,8,resign,black,15+10,mohammad_baharan,1404,mogus,1390,e4 Nc6 Bc4 Nf6 Nf3 Nxe4 Ng5 Nxg5,B00,Nimzowitsch Defense,2,14,14,white,0,1,1,0
+10767,10767,Tqh6mDCe,True,1392104321658.0,1392104442994.0,8,draw,draw,10+10,they2aproblem,1176,ghaffari,1148,e4 e5 Qh5 Qf6 Nf3 Nh6 Nxe5 Nf5,C20,King's Pawn Game: Wayward Queen Attack,3,28,28,white,0,1,1,1
+10769,10769,zX8b5Jkw,True,1391975191027.0,1391975214998.0,4,resign,white,6+6,gil,1282,ghaffari,1180,e4 e5 Nf3 Qg5,C40,King's Knight Opening,3,102,102,white,1,1,1,2
+10771,10771,aMTDDpyI,True,1391974993637.0,1391975061539.0,9,resign,white,10+10,singer,1457,ghaffari,1202,e4 e5 Nf3 Qf6 Nc3 Qh6 d3 Nc6 Bxh6,C40,King's Pawn Game: McConnell Defense,4,255,255,white,1,1,1,2
+10780,10780,KuoQEIqt,True,1391454961920.0,1391455010327.0,8,resign,black,5+8,ghaffari,1339,inadias771,1646,e4 d5 Qf3 dxe4 Qxe4 Nf6 Nh3 Nxe4,B01,Scandinavian Defense,2,-307,307,black,1,0,0,2
+10792,10792,j4EdSb7P,True,1502940100267.0,1502940634427.0,2,resign,white,20+0,e_boechat,1409,sport2008,1723,e4 e5,C20,King's Pawn Game,2,-314,314,black,0,0,0,0
+10834,10834,T6xMKWFg,False,1415929563636.0,1415930210835.0,9,draw,draw,16+0,micaiahwa,1017,beastly,869,e4 e6 Bc4 d6 Bb5+ Bd7 Bxd7+ Qxd7 Nf3,C00,French Defense #2,2,148,148,white,0,1,1,1
+10840,10840,7tbB5JoG,True,1413836669094.0,1413836881627.0,4,resign,black,15+0,beastly,927,micaiahw,1055,b3 e6 g3 d5,A01,Nimzo-Larsen Attack,1,-128,128,black,1,0,0,2
+10845,10845,kyv23ege,True,1391076428493.0,1391076455567.0,3,resign,white,14+0,mar2345,1828,otari,1500,e4 d6 Nf3,B07,Pirc Defense #4,2,328,328,white,1,1,1,2
+10920,10920,hHR7b0fc,True,1395602058113.0,1395602630726.0,6,outoftime,black,5+8,totti,1306,erdem,1396,e4 d5 Nc3 dxe4 Nxe4 Nf6,B01,Scandinavian Defense,2,-90,90,black,1,0,0,2
+11002,11002,iN5KeQ1Y,True,1403460428875.0,1403460479499.0,7,resign,white,30+0,vovkakuz,1536,systemd,1232,e4 d5 exd5 Qxd5 Nc3 Qc6 Bb5,B01,Scandinavian Defense: Mieses-Kotroc Variation,4,304,304,white,1,1,1,2
+11022,11022,0R4m8o8r,True,1397570846351.0,1397572785606.0,7,outoftime,white,30+0,vovkakuz,1508,vitaimut,1373,e4 d5 exd5 Qxd5 Nc3 Qa5 Nf3,B01,Scandinavian Defense: Main Line,6,135,135,white,1,1,1,2
+11133,11133,xvqfkrf5,True,1388605881957.0,1388606168481.0,3,resign,black,25+0,masterchessssss,1500,andreas00,1133,Nf3 e6 Ne5,A04,Zukertort Opening: Queen's Gambit Invitation,2,367,367,white,0,1,1,0
+11150,11150,ex2qp159,True,1388586060146.0,1388586131714.0,8,mate,black,25+0,mohsenh,969,andreas00,1195,e4 e6 Nc3 Qh4 d3 Bc5 Nf3 Qxf2#,C00,French Defense: Queen's Knight,3,-226,226,black,1,0,0,2
+11151,11151,ctq876mg,True,1388585870427.0,1388585914483.0,7,mate,white,25+0,andreas00,1178,sudi_george123,1339,e3 e5 Qh5 Nc6 Bc4 Nf6 Qxf7#,A00,Van't Kruijs Opening,1,-161,161,black,0,0,0,0
+11306,11306,j67nCume,False,1395855557157.0,1395855587748.0,6,resign,black,7+2,mohammad1534,1325,great-mate-super-gre,1620,e4 e5 Bc4 Nf6 Qh5 Nxh5,C24,Bishop's Opening: Berlin Defense,4,-295,295,black,1,0,0,2
+11466,11466,XJoTQFBp,True,1501444928493.0,1501444932384.0,2,resign,black,10+0,crazyscientist1,784,tahsinkayas,1006,e4 e5,C20,King's Pawn Game,2,-222,222,black,1,0,0,2
+11467,11467,DFhHkmdh,True,1501444914483.0,1501444919762.0,2,resign,white,10+0,bassboy,827,crazyscientist1,806,e4 d5,B01,Scandinavian Defense,2,21,21,white,1,1,1,2
+11468,11468,EWdOWrp4,True,1501444901460.0,1501444905056.0,2,resign,white,10+0,nickatikatom,1025,crazyscientist1,818,e4 d5,B01,Scandinavian Defense,2,207,207,white,1,1,1,2
+11469,11469,huIqSncW,True,1501444887703.0,1501444891858.0,2,resign,white,10+0,jessicaals,1027,crazyscientist1,831,e4 d5,B01,Scandinavian Defense,2,196,196,white,1,1,1,2
+11470,11470,0p0uuHOx,True,1501444810436.0,1501444814339.0,2,resign,black,15+0,crazyscientist1,837,koksalakdeniz,1216,e4 e5,C20,King's Pawn Game,2,-379,379,black,1,0,0,2
+11471,11471,Qh1QZl9s,True,1501444796821.0,1501444804126.0,2,resign,black,15+0,crazyscientist1,844,koksalakdeniz,1214,e4 e5,C20,King's Pawn Game,2,-370,370,black,1,0,0,2
+11477,11477,51KzFMkU,True,1501444576945.0,1501444585115.0,2,resign,black,10+0,crazyscientist1,856,goosebumps,1121,e4 Nf6,B02,Alekhine Defense,2,-265,265,black,1,0,0,2
+11478,11478,ZJGXmSUw,True,1501444550542.0,1501444555201.0,2,resign,black,10+0,crazyscientist1,889,criscola,850,e4 e5,C20,King's Pawn Game,2,39,39,white,0,1,1,0
+11479,11479,EtSMEwpG,True,1501444536552.0,1501444545715.0,3,resign,white,10+0,criscola,833,crazyscientist1,930,d4 e5 dxe5,A40,Englund Gambit,2,-97,97,black,0,0,0,0
+11480,11480,djFvoMLe,True,1501444496171.0,1501444498894.0,2,resign,white,10+0,sawatdiikrup,955,crazyscientist1,965,e4 d5,B01,Scandinavian Defense,2,-10,10,black,0,0,0,0
+11481,11481,ejCf0dbV,True,1501444469283.0,1501444475644.0,2,resign,black,10+0,crazyscientist1,1004,thejuicecar,999,e4 c5,B20,Sicilian Defense,2,5,5,white,0,1,1,0
+11482,11482,eibsMAQI,True,1501444456082.0,1501444459565.0,2,resign,black,10+0,crazyscientist1,1042,phazon23,1083,e4 e5,C20,King's Pawn Game,2,-41,41,black,1,0,0,2
+11483,11483,kgOcPDZ0,True,1501444442721.0,1501444449336.0,2,resign,white,10+0,daniil78,1245,crazyscientist1,1069,e4 c5,B20,Sicilian Defense,2,176,176,white,1,1,1,2
+11484,11484,EgSuznE2,True,1501444401833.0,1501444413687.0,3,resign,white,10+0,gorik6660,1121,crazyscientist1,1123,e4 c5 Nh3,B20,Sicilian Defense: Brick Variation,3,-2,2,black,0,0,0,0
+11485,11485,jfklAxK6,True,1501444348312.0,1501444358492.0,3,resign,white,10+0,haskox,1184,crazyscientist1,1187,e4 e6 d4,C00,French Defense: Normal Variation,3,-3,3,black,0,0,0,0
+11486,11486,Uf2JBDvR,True,1501444320662.0,1501444327206.0,2,resign,black,10+0,crazyscientist1,1253,riccovieira,1300,e4 e5,C20,King's Pawn Game,2,-47,47,black,1,0,0,2
+11487,11487,W9qwQpJH,True,1501443530523.0,1501443536180.0,3,resign,white,15+0,ralex,1418,crazyscientist1,1271,e4 e5 Nf3,C40,King's Knight Opening,3,147,147,white,1,1,1,2
+11488,11488,yr9cSh61,True,1501443492495.0,1501443503116.0,3,resign,white,3+9,philiprib,1405,crazyscientist1,1500,Nf3 d5 d4,D02,Queen's Pawn Game: Zukertort Variation,3,-95,95,black,0,0,0,0
+11495,11495,7SDFM8wY,False,1504443272214.0,1504443289072.0,7,resign,white,0+180,sparkyman,1324,iamaliveandbored,1158,e4 e5 Nf3 Nf6 Nc3 Nxe4 Nxe4,C42,Russian Game: Three Knights Game,5,166,166,white,1,1,1,2
+11496,11496,KBG3ijIf,False,1504443173551.0,1504443185125.0,6,resign,black,0+180,iamaliveandbored,1158,sparkyman,1324,e4 e5 Nf3 Nc6 Nxe5 Nxe5,C44,Irish Gambit,5,-166,166,black,1,0,0,2
+11501,11501,m5AyQ1qS,True,1504366072346.0,1504366095835.0,4,resign,white,10+0,edwar,1500,iamaliveandbored,1168,e4 e5 Nc3 Nf6,C26,Vienna Game: Falkbeer Variation,4,332,332,white,1,1,1,2
+11503,11503,ZFjv8xKj,True,1504355535399.0,1504355578046.0,7,draw,draw,10+0,godk2001,1156,iamaliveandbored,1157,e4 e5 Qh5 d6 Nf3 Qf6 Bc4,C20,King's Pawn Game: Wayward Queen Attack,3,-1,1,black,0,0,0,1
+11803,11803,Mynfr537,False,1504436942577.0,1504436950217.0,2,resign,white,45+0,ziaad98,1500,vrg2311,1233,e4 c5,B20,Sicilian Defense,2,267,267,white,1,1,1,2
+11876,11876,3Cjza2YJ,True,1499903129360.0,1499903183660.0,8,resign,black,15+0,fedeh79,1561,nomatter9230,1556,e4 e5 Nf3 Nc6 Bc4 Be7 Nc3 Nf6,C50,Italian Game: Hungarian Defense,6,5,5,white,0,1,1,0
+11965,11965,YICcBw5g,True,1502989186921.0,1502989197668.0,2,resign,black,20+0,the_loving_boy,1586,jacob1991,1333,d4 d5,D00,Queen's Pawn Game,2,253,253,white,0,1,1,0
+12006,12006,bRIWbJtD,False,1500920586661.0,1500920714617.0,7,draw,draw,15+0,clash_royale,1542,iammzys,1535,a4 e5 Ra3 Bxa3 f4 exf4 e3,A00,Ware Opening,1,7,7,white,0,1,1,1
+12071,12071,CUEfPrCD,True,1500920977261.0,1500921018171.0,7,resign,white,10+0,olefm,1227,dinobzik,1192,e4 c5 c4 Nf6 e5 Nd5 cxd5,B20,Sicilian Defense: Staunton-Cochrane Variation,3,35,35,white,1,1,1,2
+12263,12263,TRSCZnih,False,1504393105110.0,1504393121653.0,3,resign,white,8+0,soy,1314,toitles,1513,d4 e6 e4,C00,French Defense: Normal Variation,3,-199,199,black,0,0,0,0
+12294,12294,eP09Yv7W,True,1500085220607.0,1500085237165.0,4,mate,black,10+0,duckduckfrog,1527,smartduckduckcow,1882,f4 e6 g4 Qh4#,A02,Bird Opening,1,-355,355,black,1,0,0,2
+12296,12296,V7a3QIoB,True,1499905313373.0,1499905333733.0,4,mate,black,10+0,duckduckfrog,1533,smartduckduckcow,1897,f4 e6 g4 Qh4#,A02,Bird Opening,1,-364,364,black,1,0,0,2
+12297,12297,mzWzFRLc,True,1499905261868.0,1499905292159.0,5,mate,white,10+0,smartduckduckcow,1894,duckduckfrog,1539,e3 f5 Nc3 g5 Qh5#,A00,Van't Kruijs Opening,1,355,355,white,1,1,1,2
+12299,12299,pSa9EQDs,True,1499905025453.0,1499905049163.0,4,mate,black,10+0,duckduckfrog,1552,smartduckduckcow,1887,f4 e6 g4 Qh4#,A02,Bird Opening,1,-335,335,black,1,0,0,2
+12324,12324,inyTCeV2,True,1501666343382.0,1501666356713.0,4,mate,black,10+0,duckduckfrog,1527,ducksandcats,1861,f4 e6 g4 Qh4#,A02,Bird Opening,1,-334,334,black,1,0,0,2
+12349,12349,1qnSNFC7,True,1503420469634.0,1503420591645.0,6,draw,draw,180+3,mineralkin,1459,dfdghgh,1488,d4 Nf6 c3 g6 Bf4 Bg7,A45,Indian Game,2,-29,29,black,0,0,0,1
+12353,12353,EzVNMZcU,True,1503230204551.0,1503230228463.0,9,resign,white,3+15,stama001,1785,dfdghgh,1483,b4 e5 Bb2 Nc6 b5 Nd4 e3 Ne6 Bxe5,A00,Polish Opening,1,302,302,white,1,1,1,2
+12356,12356,0Dnos2gk,True,1503163423629.0,1503163485365.0,5,resign,white,10+3,dfdghgh,1482,angelmedina,1403,d4 d5 Bf4 e5 Bxe5,D00,Queen's Pawn Game: Mason Attack,3,79,79,white,1,1,1,2
+12419,12419,gB9xoMat,False,1502376048117.0,1502376134147.0,3,draw,draw,60+0,chess-brahs,1990,niftyleopard,1779,Nf3 b6 g3,A04,Zukertort Opening: Queenside Fianchetto Variation,2,211,211,white,0,1,1,1
+12565,12565,S5fFAYng,True,1504045111140.0,1504045152088.0,9,resign,white,5+8,bee7400,1337,wizzards,1411,e3 e5 b3 d5 Qh5 Nc6 Bb5 g6 Qxe5+,A00,Van't Kruijs Opening,1,-74,74,black,0,0,0,0
+12567,12567,CrPfZDC0,True,1503851058494.0,1503851105349.0,7,resign,white,20+0,fmakr,1342,wizzards,1440,e4 e5 Nc3 Nf6 f3 Nc6 Nge2,C20,King's Pawn Game: King's Head Opening,5,-98,98,black,0,0,0,0
+12734,12734,2aDpu1w9,False,1484161664953.0,1484161674318.0,3,resign,white,2+9,ddd223,1500,walkingwarrobots,1342,e4 e5 Qh5,C20,King's Pawn Game: Wayward Queen Attack,3,158,158,white,1,1,1,2
+12735,12735,vb2agSjj,True,1484075004450.0,1484075026820.0,2,resign,black,15+15,walkingwarrobots,1500,parenek2016,1537,e4 e6,C00,French Defense #2,2,-37,37,black,1,0,0,2
+12746,12746,4L01IuSo,False,1504365011861.0,1504365044941.0,7,resign,black,10+5,leapinggerbil,1431,pietaritamminen,1416,e4 e5 Nf3 Nc6 Bc4 Bc5 O-O,C50,Giuoco Piano,6,15,15,white,0,1,1,0
+12932,12932,tcOfCZD6,True,1499000391087.0,1499000395485.0,2,resign,black,10+0,cfc52,1567,aaaaaaaddd,1782,d3 e6,A00,Mieses Opening,1,-215,215,black,1,0,0,2
+12933,12933,fHn3NBen,True,1499000364943.0,1499000369194.0,2,resign,white,10+0,aaaaaaaddd,1776,cfc52,1572,d3 e6,A00,Mieses Opening,1,204,204,white,1,1,1,2
+12934,12934,8UxSc1Wj,True,1499000299116.0,1499000303367.0,2,resign,black,10+0,cfc52,1578,aaaaaaaddd,1771,d3 e6,A00,Mieses Opening,1,-193,193,black,1,0,0,2
+12935,12935,CgKT2Sc4,True,1499000244947.0,1499000257438.0,2,resign,black,10+0,aaaaaaaddd,1789,cfc52,1560,d3 f6,A00,Mieses Opening,1,229,229,white,0,1,1,0
+12936,12936,B7DgL7p5,True,1499000206810.0,1499000210318.0,2,resign,white,10+0,aaaaaaaddd,1783,cfc52,1565,d3 d6,A00,Mieses Opening,1,218,218,white,1,1,1,2
+12939,12939,0KaNNsh3,True,1498998515629.0,1498998520363.0,2,resign,black,10+0,cfc52,1570,aaaaaaaddd,1797,e3 e6,A00,Van't Kruijs Opening,1,-227,227,black,1,0,0,2
+12940,12940,UHp7Nlph,True,1498998495193.0,1498998501261.0,2,resign,white,10+0,aaaaaaaddd,1792,cfc52,1575,e3 e6,A00,Van't Kruijs Opening,1,217,217,white,1,1,1,2
+12941,12941,AZEFZFQR,True,1498998471981.0,1498998476853.0,2,resign,white,10+0,aaaaaaaddd,1787,cfc52,1581,d3 e6,A00,Mieses Opening,1,206,206,white,1,1,1,2
+12942,12942,LfRRIsUw,True,1498998455782.0,1498998461513.0,2,resign,white,10+0,aaaaaaaddd,1781,cfc52,1587,d3 f6,A00,Mieses Opening,1,194,194,white,1,1,1,2
+12943,12943,K8ek5fIK,True,1498998434657.0,1498998439500.0,2,resign,white,10+0,aaaaaaaddd,1776,cfc52,1593,d3 e6,A00,Mieses Opening,1,183,183,white,1,1,1,2
+12944,12944,ItUPrkQ5,True,1498998417570.0,1498998423035.0,2,resign,black,10+0,cfc52,1599,aaaaaaaddd,1769,d3 e6,A00,Mieses Opening,1,-170,170,black,1,0,0,2
+12945,12945,xITRx9Ve,True,1498998396819.0,1498998401717.0,2,resign,white,10+0,aaaaaaaddd,1763,cfc52,1606,d3 e6,A00,Mieses Opening,1,157,157,white,1,1,1,2
+12946,12946,v3oiOYz0,True,1498998374006.0,1498998378710.0,2,resign,black,10+0,cfc52,1613,aaaaaaaddd,1756,d4 e6,A40,Horwitz Defense,2,-143,143,black,1,0,0,2
+12947,12947,IxL5TBNF,True,1498998349673.0,1498998356680.0,2,resign,white,10+0,aaaaaaaddd,1749,cfc52,1620,d3 e6,A00,Mieses Opening,1,129,129,white,1,1,1,2
+12948,12948,8jYhdJOA,True,1498998322212.0,1498998329475.0,2,resign,white,10+0,cfc52,1604,aaaaaaaddd,1765,c3 e6,A00,Saragossa Opening,1,-161,161,black,0,0,0,0
+12950,12950,3fA8NveE,True,1498993096845.0,1498993101274.0,2,resign,white,10+0,aaaaaaaddd,1769,cfc52,1625,d4 e6,A40,Horwitz Defense,2,144,144,white,1,1,1,2
+12951,12951,bG5JVyoJ,True,1498993066881.0,1498993074867.0,2,resign,white,10+0,aaaaaaaddd,1761,cfc52,1632,d4 e6,A40,Horwitz Defense,2,129,129,white,1,1,1,2
+12952,12952,aVwjwvBy,True,1498993043515.0,1498993050887.0,2,resign,white,10+0,cfc52,1616,aaaaaaaddd,1777,d3 e6,A00,Mieses Opening,1,-161,161,black,0,0,0,0
+12953,12953,ilhtdQVv,True,1498992996468.0,1498993000983.0,2,resign,white,10+0,aaaaaaaddd,1771,cfc52,1623,d4 e6,A40,Horwitz Defense,2,148,148,white,1,1,1,2
+12954,12954,fgh2VwKl,True,1498992954934.0,1498992961376.0,2,resign,white,10+0,aaaaaaaddd,1763,cfc52,1630,d4 e6,A40,Horwitz Defense,2,133,133,white,1,1,1,2
+13067,13067,tFqHJcCa,False,1490929931017.0,1490930062426.0,7,draw,draw,15+2,konstantin71,1670,win222,1500,e4 e5 Nf3 Nc6 Bc4 Bc5 c3,C53,Italian Game: Classical Variation #2,7,170,170,white,0,1,1,1
+13103,13103,MquSInPb,True,1502463079459.0,1502463126118.0,8,mate,black,10+0,samilou123,1605,ppm,1735,e4 e5 h3 Bc5 a3 Qf6 Ne2 Bxf2#,C20,King's Pawn Game,2,-130,130,black,1,0,0,2
+13104,13104,by9VPjru,True,1502463027441.0,1502463056403.0,8,mate,black,10+0,samilou123,1614,ppm,1727,e4 e5 h3 Bc5 a3 Qf6 Nc3 Qxf2#,C20,King's Pawn Game,2,-113,113,black,1,0,0,2
+13111,13111,16dPmhLI,True,1493571845203.0,1493571903709.0,7,resign,white,10+0,ralf7,2192,fishoutofwater,2106,e4 d6 d4 Nd7 f4 e5 Nf3,B07,Rat Defense: Antal Defense,4,86,86,white,1,1,1,2
+13231,13231,8c1sF2CM,True,1496221624010.0,1496221632895.0,2,outoftime,black,150+180,sveenemand,1039,canturkoguz,1161,e4 e5,C20,King's Pawn Game,2,-122,122,black,1,0,0,2
+13232,13232,wX3EQAPu,True,1495005582083.0,1495005601617.0,2,resign,black,150+180,sveenemand,1055,poshgirl,1280,e3 e5,A00,Van't Kruijs Opening,1,-225,225,black,1,0,0,2
+13233,13233,rVHJzpo8,True,1494407847278.0,1494407907258.0,8,resign,black,10+0,sveenemand,1086,sergik91,1148,e3 d5 d3 Nc6 Qh5 Be6 Qxh7 Rxh7,A00,Van't Kruijs Opening,1,-62,62,black,1,0,0,2
+13235,13235,yPT5JaJx,False,1487673631217.0,1487673690398.0,4,resign,black,180+180,sveenemand,1091,fingers33,1171,e3 c5 d3 e5,A00,Van't Kruijs Opening,1,-80,80,black,1,0,0,2
+13267,13267,XcT8WL1F,False,1486568051572.0,1486568127277.0,6,mate,black,30+0,izi08,1500,flowg10,1628,g3 e5 f4 exf4 gxf4 Qh4#,A00,Hungarian Opening,1,-128,128,black,1,0,0,2
+13269,13269,7llidxIH,False,1486566531482.0,1486566556234.0,3,draw,draw,15+0,izi08,1500,mysterioustoad,1626,f4 d5 d3,A03,Bird Opening: Dutch Variation,2,-126,126,black,0,0,0,1
+13270,13270,SeiZHaJr,False,1486566436230.0,1486566495646.0,7,resign,white,15+0,nicomottaye,1200,izi08,1500,e4 d5 e5 c6 d4 c5 dxc5,B12,Caro-Kann Defense: Advance Variation |  Botvinnik-Carls Defense,6,-300,300,black,0,0,0,0
+13271,13271,q7Gy5nXc,False,1486566388782.0,1486566412048.0,4,draw,draw,15+0,litbea,1454,izi08,1500,e4 d6 d3 c6,B07,Pirc Defense #4,2,-46,46,black,0,0,0,1
+13329,13329,HHymJTFE,True,1491663681516.0,1491663716495.0,8,resign,white,15+5,cornely,1332,arturfritz,1498,e4 c5 Bc4 Nc6 Nf3 Nf6 e5 Ng4,B20,Sicilian Defense: Bowdler Attack,3,-166,166,black,0,0,0,0
+13358,13358,3U0jhAL1,True,1496219578678.0,1496219620909.0,5,outoftime,white,8+11,dominickburger,1473,leo_tycho,1532,e4 e5 Qg4 Qf6 Bc4,C20,King's Pawn Game,2,-59,59,black,0,0,0,0
+13443,13443,CPPHnH6t,True,1504419513615.0,1504419522915.0,5,resign,white,8+0,chessbuzz17,2141,andrei70ster,2180,d4 g6 Bh6 Bg7 Bxg7,A40,Modern Defense,2,-39,39,black,0,0,0,0
+13643,13643,cUsijlOF,True,1502794274231.0,1502794332140.0,9,resign,black,10+0,kuppel,1080,chesswith666,1003,Nf3 Nf6 d4 g6 c3 Bg7 e4 Nxe4 g4,A49,East Indian Defense,4,77,77,white,0,1,1,0
+13701,13701,8uS7Lt5i,True,1504399803537.0,1504399805459.0,1,resign,black,10+0,networkchess2,1878,kaskade24,1860,d3,A00,Mieses Opening,1,18,18,white,0,1,1,0
+13714,13714,t0Ge6UkK,True,1503674843558.0,1503674858156.0,6,resign,white,10+0,alfdl,1959,networkchess2,2008,e4 c6 Nc3 d5 Nf3 c5,B10,Caro-Kann Defense: Two Knights Attack,5,-49,49,black,0,0,0,0
+13715,13715,ip8OPXQ6,True,1503674817207.0,1503674825477.0,2,resign,black,10+0,networkchess2,2029,filixius,2025,e4 Nf6,B02,Alekhine Defense,2,4,4,white,0,1,1,0
+13716,13716,wvolfLL2,True,1503674783751.0,1503674806390.0,7,resign,black,10+0,networkchess2,2058,alfdl,1945,e4 d5 exd5 Nf6 Bc4 Bf5 d6,B01,Scandinavian Defense: Modern Variation #2,4,113,113,white,0,1,1,0
+14003,14003,adLUOpXO,True,1503915229447.0,1503915267819.0,5,outoftime,white,10+0,rhysmc123,1328,miron33,1362,e4 c5 d3 e5 Nf3,B20,Sicilian Defense,2,-34,34,black,0,0,0,0
+14126,14126,e9av6QAS,True,1501276402533.0,1501276497993.0,8,resign,black,10+0,plam,1631,mster_bagas1,1547,d4 b6 Bf4 Bb7 e3 g6 Bd3 Bxg2,A40,English Defense #2,2,84,84,white,0,1,1,0
+14172,14172,zpRypxOK,True,1504314443197.0,1504314461097.0,7,resign,white,8+0,spearlarry,1342,howchessyt,1170,e4 e5 c3 Nc6 d4 exd4 cxd4,C20,King's Pawn Game: Macleod Attack,3,172,172,white,1,1,1,2
+14179,14179,FqzDHBew,True,1504306027771.0,1504306104128.0,3,resign,white,8+8,partiallyundead,1183,howchessyt,1191,e4 e5 d3,C20,King's Pawn Game: Leonardis Variation,3,-8,8,black,0,0,0,0
+14182,14182,QOEFbpiQ,False,1504282887261.0,1504282900793.0,2,resign,white,10+0,julioparra,1286,howchessyt,1198,b3 d5,A01,Nimzo-Larsen Attack: Classical Variation,2,88,88,white,1,1,1,2
+14303,14303,eP09Yv7W,True,1500085220607.0,1500085237165.0,4,mate,black,10+0,duckduckfrog,1527,smartduckduckcow,1882,f4 e6 g4 Qh4#,A02,Bird Opening,1,-355,355,black,1,0,0,2
+14305,14305,V7a3QIoB,True,1499905313373.0,1499905333733.0,4,mate,black,10+0,duckduckfrog,1533,smartduckduckcow,1897,f4 e6 g4 Qh4#,A02,Bird Opening,1,-364,364,black,1,0,0,2
+14306,14306,mzWzFRLc,True,1499905261868.0,1499905292159.0,5,mate,white,10+0,smartduckduckcow,1894,duckduckfrog,1539,e3 f5 Nc3 g5 Qh5#,A00,Van't Kruijs Opening,1,355,355,white,1,1,1,2
+14308,14308,pSa9EQDs,True,1499905025453.0,1499905049163.0,4,mate,black,10+0,duckduckfrog,1552,smartduckduckcow,1887,f4 e6 g4 Qh4#,A02,Bird Opening,1,-335,335,black,1,0,0,2
+14359,14359,BOJ8n9Jc,True,1504117538577.0,1504117690934.0,9,resign,white,10+0,bigbrother101,1364,greentxo,1219,e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Qe7 Bxf7+,C57,Italian Game: Two Knights Defense |  Knight Attack,7,145,145,white,1,1,1,2
+14410,14410,gB9xoMat,False,1502376048117.0,1502376134147.0,3,draw,draw,60+0,chess-brahs,1990,niftyleopard,1779,Nf3 b6 g3,A04,Zukertort Opening: Queenside Fianchetto Variation,2,211,211,white,0,1,1,1
+14709,14709,bc9QcnOx,True,1502191562937.0,1502191615849.0,9,resign,white,15+0,rodrigowski19,1184,valibulin,924,e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 Bd6 Nxf7,C57,Italian Game: Two Knights Defense |  Knight Attack,7,260,260,white,1,1,1,2
+14735,14735,mXsLz231,True,1495474175864.0,1495474201802.0,8,resign,white,15+0,attee,1507,janaletro,1651,Nf3 d6 d4 Nf6 d5 g6 e4 Nxe4,A46,Indian Game: Wade-Tartakower Defense,4,-144,144,black,0,0,0,0
+14755,14755,nbWZ62Ue,False,1493637969551.0,1493638031500.0,8,resign,black,10+0,mm_chess,1176,roman_pham,1264,e4 e5 Nf3 Bc5 Bc4 Nf6 Nc3 O-O,C40,King's Pawn Game: Busch-Gass Gambit,4,-88,88,black,1,0,0,2
+14806,14806,2tIl85lI,False,1504208628739.0,1504208638958.0,2,resign,white,30+8,marsfj,1538,thefrenchtactics,1365,e4 b6,B00,Owen Defense,2,173,173,white,1,1,1,2
+14823,14823,eP4YVNoS,False,1497362571301.0,1497362618217.0,5,resign,white,120+0,skydeck,1500,vkrish,1472,e4 e5 Nf3 Nc6 Bc4,C50,Italian Game,5,28,28,white,1,1,1,2
+14906,14906,d9gl523x,False,1491927531869.0,1491927553003.0,7,mate,white,7+2,razzzzy,1238,king-_-micah,1500,e4 e5 Bc4 Na6 Qf3 b6 Qxf7#,C23,Bishop's Opening,3,-262,262,black,0,0,0,0
+14907,14907,MKdZBR5k,False,1491927429778.0,1491927524001.0,7,mate,white,7+2,king-_-micah,1500,razzzzy,1238,e4 e5 Bc4 Na6 Qf3 b6 Qxf7#,C23,Bishop's Opening,3,262,262,white,1,1,1,2
+14908,14908,RRqJLTGb,False,1491927290515.0,1491927411397.0,4,mate,black,7+2,king-_-micah,1500,razzzzy,1238,f4 e6 g4 Qh4#,A02,Bird Opening,1,262,262,white,0,1,1,0
+15005,15005,UWHwHtWT,True,1495965869850.0,1495965914436.0,9,resign,white,5+8,rassem,1668,wojand,1695,e4 e5 Bc4 Nf6 d4 d6 dxe5 Nxe4 Qd5,C24,Bishop's Opening: Ponziani Gambit,5,-27,27,black,0,0,0,0
+15040,15040,ldB6PHOh,False,1490905833261.0,1490905894800.0,3,resign,white,30+0,angelokzx,1500,samirdas,1193,d4 d5 Nc3,D00,Queen's Pawn Game: Chigorin Variation,3,307,307,white,1,1,1,2
+15177,15177,wPfTXs7C,False,1492634079073.0,1492634239856.0,3,resign,white,10+0,miraclemb,1500,flafel26,1587,d4 Nf6 h4,A45,Indian Game,2,-87,87,black,0,0,0,0
+15303,15303,7JDisqZS,True,1492801660533.0,1492801812278.0,5,resign,white,5+10,shadowslord,1315,talhakilinc,1198,d4 Nf6 Nc3 d5 e3,D01,Queen's Pawn Game: Chigorin Variation,4,117,117,white,1,1,1,2
+15728,15728,j5XSpCce,False,1495979176797.0,1495979201329.0,8,resign,black,15+0,valyrican,1478,howdoichess96,1708,e4 c5 Bb5 a6 Ba4 b5 Bb3 c4,B20,Sicilian Defense,2,-230,230,black,1,0,0,2
+15859,15859,dCkOHehy,False,1498674555786.0,1498674568581.0,7,resign,black,10+5,niamor,1588,vic_mark,1489,e4 c6 d4 d5 e5 Bf5 Qg4,B12,Caro-Kann Defense: Advance Variation,5,99,99,white,0,1,1,0
+15867,15867,vOmuaME9,False,1490049855506.0,1490049912539.0,9,resign,white,15+1,vic_mark,1496,alameldine,1508,e4 d5 exd5 Qxd5 Nc3 Qd8 d4 Nc6 Nf3,B01,Scandinavian Defense: Mieses-Kotroc Variation,4,-12,12,black,0,0,0,0
+16048,16048,7jlkeHMy,True,1493808204225.0,1493808253058.0,3,resign,white,10+0,slytherinsheir,1242,slaying_queen,1134,e4 e5 Nf3,C40,King's Knight Opening,3,108,108,white,1,1,1,2
+16049,16049,kK0wOwPH,False,1493808073166.0,1493808120335.0,3,resign,white,10+0,slytherinsheir,1242,slaying_queen,1134,e4 e5 Nf3,C40,King's Knight Opening,3,108,108,white,1,1,1,2
+16084,16084,itEQezib,True,1504390033486.0,1504390057813.0,2,resign,black,10+0,kei0075,1629,chesskhovtsev,1580,e4 e5,C20,King's Pawn Game,2,49,49,white,0,1,1,0
+16148,16148,IfQC0hNI,True,1493108287538.0,1493108956617.0,4,outoftime,black,10+0,rudrresh,1606,malangero,1567,e4 c5 Nf3 Nc6,B30,Sicilian Defense: Old Sicilian,4,39,39,white,0,1,1,0
+16162,16162,E1XAjGyK,True,1484293841222.0,1484301390129.0,2,outoftime,black,5+5,artur576,1710,yazeed_bani_saleem,1750,e4 e5,C20,King's Pawn Game,2,-40,40,black,1,0,0,2
+16248,16248,oxabMJc4,True,1482391366270.0,1482391491223.0,9,resign,white,40+0,gladiator78,1524,hopewins,1500,e4 d5 e5 Nc6 d4 e6 a3 Qf6 exf6,B00,Nimzowitsch Defense: Scandinavian Variation |  Advance Variation,5,24,24,white,1,1,1,2
+16299,16299,VBgWo7M9,False,1501684629203.0,1501684694067.0,7,resign,white,10+5,naxcivanni44,1500,antnishu,1500,e4 Nc6 d4 e5 d5 Nd4 c3,B00,Nimzowitsch Defense: Kennedy Variation |  Linksspringer Variation,5,0,0,same,0,0,0,0
+16337,16337,H7E4hWqv,False,1485481916938.0,1485482206691.0,9,resign,white,40+10,king5891,1400,adrianjunior,1381,Nf3 d5 b3 e5 Nxe5 Bd6 Nf3 Nf6 Bb2,A06,Nimzowitsch-Larsen Attack,3,19,19,white,1,1,1,2
+16361,16361,X4AEBO3E,True,1497036147931.0,1497036205792.0,8,resign,black,15+0,agustin015933,1632,snoopyfan,1924,e4 e6 d4 d5 f3 dxe4 fxe4 Qh4+,C00,French Defense,4,-292,292,black,1,0,0,2
+16362,16362,xY7TJj5y,True,1497036004009.0,1497036077026.0,9,resign,white,15+0,snoopyfan,1916,attee,1620,c4 d5 cxd5 Qxd5 Nc3 Qc4 e4 Nf6 Bxc4,A10,English Opening: Anglo-Scandinavian Defense,2,296,296,white,1,1,1,2
+16383,16383,61yrykwO,True,1482089674894.0,1482089718825.0,7,resign,white,15+1,gwadloupeyen,1499,aragon26,1442,e3 e5 Qh5 Nh6 Qxe5+ Be7 Qxg7,A00,Van't Kruijs Opening,1,57,57,white,1,1,1,2
+16415,16415,SZFctKpv,True,1498820847524.0,1498820859493.0,4,resign,black,10+0,ramin741,1650,aldar_khaidakov,1812,e4 e5 Nf3 Nc6,C44,King's Knight Opening: Normal Variation,4,-162,162,black,1,0,0,2
+16462,16462,xyJVLOev,True,1496421269391.0,1496421300567.0,5,outoftime,white,10+0,lewispugdog,1046,alexmorato,986,e4 e5 Nc3 c6 Nf3,C27,Vienna Game,3,60,60,white,1,1,1,2
+16547,16547,KgGwoFhE,True,1502230529460.0,1502230577711.0,9,resign,black,25+6,murat5989,1628,paulorojas,1688,e4 c5 Nf3 d6 Bc4 Nf6 d3 h6 Nc3,B50,Sicilian Defense,4,-60,60,black,1,0,0,2
+16721,16721,MNtNEacv,True,1478473565182.0,1478473722588.0,8,resign,black,15+0,chesslearningpro,1563,enricolord,1290,c4 e5 d4 exd4 Qxd4 Nc6 Qc3 Bb4,A20,English Opening: King's English Variation,2,273,273,white,0,1,1,0
+16865,16865,pOC1w38O,False,1475353257698.0,1475353280596.0,3,resign,white,11+5,hamedbriki,1970,korhan,1832,e4 e5 Nf3,C40,King's Knight Opening,3,138,138,white,1,1,1,2
+16989,16989,lXGOv4Gb,True,1457975559248.0,1457975609011.0,7,resign,white,20+0,pipeflan,1519,morgane10,1324,d3 d5 Be3 Bf5 Nf3 e5 Nxe5,A00,Mieses Opening,1,195,195,white,1,1,1,2
+17028,17028,YfGtkv0Z,True,1502140638417.0,1502140659399.0,7,resign,white,180+0,hakan24demir,1554,erikweisz,1387,e4 e5 Qh5 g6 Qxe5+ Be7 Qxh8,C20,King's Pawn Game: Wayward Queen Attack,3,167,167,white,1,1,1,2
+17038,17038,QKLQ15Og,True,1501973520845.0,1501973609788.0,9,resign,white,15+0,hadi3000,1601,erikweisz,1399,e4 e5 Bc4 f5 Bxg8 Rxg8 Qh5+ g6 Qxh7,C23,Bishop's Opening: Calabrese Countergambit,4,202,202,white,1,1,1,2
+17094,17094,gD7a4WY8,True,1493130370794.0,1493202720184.0,2,outoftime,black,14+2,thegasmask,1383,mertoksuz,1522,c4 e5,A20,English Opening: King's English Variation,2,-139,139,black,1,0,0,2
+17133,17133,nCkVsErj,True,1481470207290.0,1481470316187.0,2,resign,black,15+0,viktorr,1467,antoinepetrov,1510,e4 c5,B20,Sicilian Defense,2,-43,43,black,1,0,0,2
+17346,17346,XdT1h6uE,False,1503910777066.0,1503910791086.0,3,outoftime,white,8+5,basilis,1546,danko_25,1885,e4 c5 d3,B20,Sicilian Defense,2,-339,339,black,0,0,0,0
+17512,17512,280LvNvl,True,1479310924915.0,1479311183058.0,3,draw,draw,12+3,tunisinov,1953,ankit_007,1999,f4 d5 g4,A02,Bird Opening: Dutch Variation |  Dudweiler Gambit,3,-46,46,black,0,0,0,1
+17525,17525,psxki3ya,True,1479028360255.0,1479028408214.0,9,mate,white,8+0,kemchik,1932,tunisinov,1989,d4 f5 Bg5 Nf6 Bxf6 gxf6 e4 fxe4 Qh5#,A80,Dutch Defense: Hopton Attack,3,-57,57,black,0,0,0,0
+17574,17574,NGGfvoK7,True,1465128134879.0,1465128186472.0,8,resign,white,30+30,edy456,1675,guru200773,1729,d4 Nf6 Nc3 g6 Bg5 Bg7 Nf3 h5,A45,Indian Game,2,-54,54,black,0,0,0,0
+17599,17599,2e5U4t0w,False,1469045285309.0,1469045338432.0,6,resign,black,15+0,russky00,1315,reubpear,1539,e4 Nc6 Nf3 Nf6 Nc3 e6,B00,Nimzowitsch Defense |  Declined Variation,3,-224,224,black,1,0,0,2
+17741,17741,msnWn5gr,False,1501377642266.0,1501377670455.0,9,resign,white,8+1,beatenthebishop,1288,babblingboy,1381,d4 d5 Nc3 Nf6 Bf4 Nc6 Nb5 Bf5 Nxc7+,D01,Queen's Pawn Game: Chigorin Variation,4,-93,93,black,0,0,0,0
+17806,17806,uE39VLjw,False,1466011667534.0,1466011822647.0,9,mate,white,10+0,brucewayne100,1500,element4life,1190,e4 e5 Qh5 Nc6 Bc4 g6 Qf3 b6 Qxf7#,C20,King's Pawn Game: Wayward Queen Attack,3,310,310,white,1,1,1,2
+17816,17816,vn5uAqic,True,1465848024423.0,1465848060346.0,7,resign,white,10+0,valen13,1500,element4life,1213,e4 e5 Qh5 g6 Qxe5+ Be7 Qxh8,C20,King's Pawn Game: Wayward Queen Attack,3,287,287,white,1,1,1,2
+17826,17826,sVOQ0IMs,True,1461182956363.0,1461183095753.0,9,resign,white,10+0,x15421542,1345,element4life,1297,d4 d5 c4 dxc4 e3 Be6 Nc3 Nc6 d5,D20,Queen's Gambit Accepted: Old Variation,5,48,48,white,1,1,1,2
+17831,17831,BDMZoMQC,True,1461011257846.0,1461011333375.0,9,mate,white,10+0,ttfer_1521,1476,element4life,1173,e4 e5 Qh5 Nc6 Bc4 g6 Qf3 Bh6 Qxf7#,C20,King's Pawn Game: Wayward Queen Attack,3,303,303,white,1,1,1,2
+17835,17835,BwYnEuBC,True,1460912739308.0,1460912768562.0,7,resign,white,10+0,markosbueno,1444,element4life,1264,e4 e5 Qh5 g6 Qxe5+ Be7 Qxh8,C20,King's Pawn Game: Wayward Queen Attack,3,180,180,white,1,1,1,2
+18116,18116,gAF3FlVM,True,1492330286087.0,1492330382359.0,9,resign,white,8+0,alexmoscow,1446,alpha3031,1247,e4 c5 Bc4 Nc6 Nf3 g6 Ng5 Bg7 Nxf7,B20,Sicilian Defense: Bowdler Attack,3,199,199,white,1,1,1,2
+18125,18125,bZhk7VxT,False,1472804935542.0,1472805916318.0,8,outoftime,white,5+10,alpha3031,1193,aysallinn,1430,e4 d5 Nc3 d4 Nd5 e6 Nf4 e5,B01,Scandinavian Defense,2,-237,237,black,0,0,0,0
+18136,18136,96bZWSOw,True,1469246506231.0,1469246536027.0,6,resign,black,4+6,alpha3031,1254,torbar,1543,e4 c6 d3 d5 g3 dxe4,B10,Caro-Kann Defense: Breyer Variation,3,-289,289,black,1,0,0,2
+18367,18367,97n4wfCy,True,1492872634061.0,1492872679208.0,8,resign,white,10+10,shew,1175,stutberidze,1111,e4 e5 Qh5 Bc5 Qxe5+ Kf8 Qxc5+ Qe7,C20,King's Pawn Game: Wayward Queen Attack,3,64,64,white,1,1,1,2
+18583,18583,TmznzBcA,True,1494717842810.0,1494717845741.0,1,resign,white,10+0,adriansywu,1431,usa-04071776,1367,e4,B00,King's Pawn,1,64,64,white,1,1,1,2
+18644,18644,Tok2vKal,True,1481655921948.0,1481656015622.0,8,resign,black,10+0,chessguy9001,1278,wolfbrotherwolf,1500,e4 g5 Nf3 b5 Nxg5 f6 f3 fxg5,B00,Borg Defense,2,-222,222,black,1,0,0,2
+18674,18674,1w0Q64jl,True,1473346725055.0,1473346750451.0,4,resign,black,15+0,sebasguitar,1616,aboud,1708,e4 c5 Nf3 d6,B50,Sicilian Defense,4,-92,92,black,1,0,0,2
+18702,18702,kqtrwYiF,True,1453205923900.0,1453206038247.0,9,resign,black,35+8,noob47,1406,dayne,1525,e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Bb5,B10,Caro-Kann Defense,2,-119,119,black,1,0,0,2
+18785,18785,8hsaLsdA,False,1449610924398.0,1449611025916.0,8,draw,draw,10+5,i_play_chess,1500,chaose,1792,e4 c5 Nf3 d6 Nc3 g6 Bc4 Bg7,B50,Sicilian Defense,4,-292,292,black,0,0,0,1
+18898,18898,HnKmMIbC,True,1485834550835.0,1485834582766.0,5,resign,black,10+15,chesshedron,1815,coolcalc,1688,f4 c5 Nf3 d6 Nc3,A02,Bird Opening,1,127,127,white,0,1,1,0
+19096,19096,ueDH6x97,True,1502909724934.0,1502909728536.0,2,resign,black,5+5,svindled,1118,marten54,1456,e4 Nf6,B02,Alekhine Defense,2,-338,338,black,1,0,0,2
+19097,19097,aPKviA0G,True,1502909713247.0,1502909717104.0,2,resign,black,8+2,svindled,1126,sunnyside41st,1450,e4 c5,B20,Sicilian Defense,2,-324,324,black,1,0,0,2
+19098,19098,NQFasT6b,True,1502909704323.0,1502909707499.0,2,resign,black,10+0,svindled,1154,haskox,1147,e4 e5,C20,King's Pawn Game,2,7,7,white,0,1,1,0
+19099,19099,DLYk1BRG,True,1502909664247.0,1502909666785.0,2,resign,white,10+0,the-legendery-player,1227,svindled,1179,h3 b6,A00,Clemenz Opening,1,48,48,white,1,1,1,2
+19100,19100,r2Tv9299,True,1502909626272.0,1502909634693.0,2,resign,white,10+0,brujo77,1507,svindled,1188,e4 d5,B01,Scandinavian Defense,2,319,319,white,1,1,1,2
+19101,19101,2qL2ZVNH,True,1502909602373.0,1502909607801.0,2,resign,black,10+1,svindled,1196,nastyazdrastya,1547,e4 e5,C20,King's Pawn Game,2,-351,351,black,1,0,0,2
+19102,19102,rcROpusK,True,1502909590493.0,1502909595963.0,2,resign,white,5+8,minelkayraaaaaa,1467,svindled,1209,d4 e6,A40,Horwitz Defense,2,258,258,white,1,1,1,2
+19103,19103,g2CgIJFH,True,1502909572718.0,1502909577259.0,2,resign,black,8+0,svindled,1226,sgbarrys,1431,d3 e6,A00,Mieses Opening,1,-205,205,black,1,0,0,2
+19104,19104,tl7g5sJb,True,1502909556590.0,1502909563913.0,2,resign,white,10+0,ryanprihantoro,1362,svindled,1252,e4 d6,B07,Pirc Defense #4,2,110,110,white,1,1,1,2
+19105,19105,lSvy8nDx,True,1502909525367.0,1502909545499.0,2,resign,white,3+8,222222,1076,svindled,1319,e4 e6,C00,French Defense #2,2,-243,243,black,0,0,0,0
+19106,19106,9sOv9BBL,True,1502909513550.0,1502909517854.0,2,resign,black,13+0,svindled,1346,spaxxts,1503,e4 e5,C20,King's Pawn Game,2,-157,157,black,1,0,0,2
+19107,19107,xzBfOhdq,True,1502909501611.0,1502909508291.0,2,resign,black,7+5,svindled,1369,ignacio45,1581,d3 e5,A00,Mieses Opening: Reversed Rat,2,-212,212,black,1,0,0,2
+19108,19108,MW1ZjrS9,True,1502909332941.0,1502909337055.0,2,resign,white,10+3,julian01,1567,svindled,1400,e4 a5,B00,Ware Defense,2,167,167,white,1,1,1,2
+19109,19109,DqTnqTK4,True,1502909306663.0,1502909326678.0,2,resign,black,30+0,svindled,1445,streeet1,1546,h4 d5,A00,Kadas Opening,1,-101,101,black,1,0,0,2
+19110,19110,CAkwRTef,True,1502909296404.0,1502909301274.0,2,resign,white,15+0,ka0017,1538,svindled,1516,e4 a5,B00,Ware Defense,2,22,22,white,1,1,1,2
+19111,19111,GLcGuZZa,True,1502909258708.0,1502909274969.0,3,resign,black,10+3,svindled,1630,julian01,1556,g4 e5 f4,A00,Grob Opening,1,74,74,white,0,1,1,0
+19112,19112,HehthdTm,True,1502909228257.0,1502909240217.0,2,resign,white,8+0,dino69,1834,svindled,1709,e4 e6,C00,French Defense #2,2,125,125,white,1,1,1,2
+19116,19116,LE8RlKPJ,False,1504042722464.0,1504042789004.0,7,resign,white,60+180,thebadfish,1963,crraii,1881,c4 f5 Nc3 Nf6 d3 e6 e4,A10,English Opening: Anglo-Dutch Defense,2,82,82,white,1,1,1,2
+19118,19118,iI0Fcm9f,False,1504042543473.0,1504042561297.0,2,resign,white,60+180,thebadfish,1963,crraii,1881,b4 f5,A00,Polish Opening: Dutch Defense,2,82,82,white,1,1,1,2
+19128,19128,51wccHT4,False,1503779224102.0,1503779230883.0,2,resign,black,45+45,thebadfish,1973,crraii,1881,c4 f5,A10,English Opening: Anglo-Dutch Defense,2,92,92,white,0,1,1,0
+19236,19236,Mynfr537,False,1504436942577.0,1504436950217.0,2,resign,white,45+0,ziaad98,1500,vrg2311,1233,e4 c5,B20,Sicilian Defense,2,267,267,white,1,1,1,2
+19243,19243,7SDFM8wY,False,1504443272214.0,1504443289072.0,7,resign,white,0+180,sparkyman,1324,iamaliveandbored,1158,e4 e5 Nf3 Nf6 Nc3 Nxe4 Nxe4,C42,Russian Game: Three Knights Game,5,166,166,white,1,1,1,2
+19244,19244,KBG3ijIf,False,1504443173551.0,1504443185125.0,6,resign,black,0+180,iamaliveandbored,1158,sparkyman,1324,e4 e5 Nf3 Nc6 Nxe5 Nxe5,C44,Irish Gambit,5,-166,166,black,1,0,0,2
+19249,19249,m5AyQ1qS,True,1504366072346.0,1504366095835.0,4,resign,white,10+0,edwar,1500,iamaliveandbored,1168,e4 e5 Nc3 Nf6,C26,Vienna Game: Falkbeer Variation,4,332,332,white,1,1,1,2
+19251,19251,ZFjv8xKj,True,1504355535399.0,1504355578046.0,7,draw,draw,10+0,godk2001,1156,iamaliveandbored,1157,e4 e5 Qh5 d6 Nf3 Qf6 Bc4,C20,King's Pawn Game: Wayward Queen Attack,3,-1,1,black,0,0,0,1
+19351,19351,t69kqnWh,True,1500674753247.0,1500674760893.0,2,resign,black,15+15,adcz,1728,dumbluck,2012,e4 Nc6,B00,Nimzowitsch Defense,2,-284,284,black,1,0,0,2
+19576,19576,t5a4SqWn,True,1503154455078.0,1503154534848.0,9,resign,white,15+15,mrjv,1482,garik73,1455,e4 e5 Nf3 Nf6 Nxe5 Nxe4 Qe2 Nf6 Nc6+,C42,Russian Game: Damiano Variation,6,27,27,white,1,1,1,2
+19721,19721,Yu74GxBR,False,1503569097889.0,1503569137089.0,9,draw,draw,180+180,cselhu3,1599,indroneil,1647,e4 c5 Nc3 e5 Nf3 Nc6 d3 Nf6 Bg5,B23,Sicilian Defense: Closed Variation,3,-48,48,black,0,0,0,1
+19746,19746,zfhhvhea,False,1503217692605.0,1503217718995.0,5,resign,white,10+0,bruno510,1010,dimak8,840,e4 e5 Nf3 d6 Bc4,C41,Philidor Defense #3,5,170,170,white,1,1,1,2
+19843,19843,Oq2CjvqQ,False,1502036744339.0,1502036760387.0,3,resign,white,10+0,zen3000,1500,u5555,1229,e4 e5 Nf3,C40,King's Knight Opening,3,271,271,white,1,1,1,2
+19984,19984,0VAVackF,True,1501743668367.0,1501743751697.0,8,resign,white,30+0,liamschauerman,1866,rb52,2088,e4 d6 d4 Nf6 Nc3 g6 Be3 Bg7,B07,Pirc Defense #3,6,-222,222,black,0,0,0,0
+20050,20050,nYOvevdh,True,1499814002224.0,1499814052544.0,9,outoftime,white,10+0,jamboger,1243,yamaguchipolgar,1142,c4 e5 d4 exd4 Qxd4 Nf6 Bg5 Be7 e4,A20,English Opening: King's English Variation,2,101,101,white,1,1,1,2
