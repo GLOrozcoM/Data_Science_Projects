@@ -266,7 +266,7 @@ def fill_a_point(index, df, concentration_type):
     :param concentration_type: Either i131, cs134, or cs137 - concentrations from Chernobyl air data set.
     :return: A dictionary containing values for a single measurement.
     """
-    coordinates = [df.loc[index, 'latitude'], df.loc[index, 'longitude']]
+    coordinates = [df.loc[index, 'longitude'], df.loc[index, 'latitude']]
 
     if concentration_type == 'i131':
         concentration = df.loc[index, 'i131']
