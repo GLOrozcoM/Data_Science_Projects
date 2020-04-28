@@ -458,3 +458,17 @@ def make_plot_multi_label( bag_multi_confusion_matrix, r_forest_multi_confusion_
     results = make_multi_precision_recall_list( 'Bag of trees', bag_multi_confusion_matrix,
                                                   'Random forest', r_forest_multi_confusion_matrix, label )
     create_specific_results_plot_general( results,  2, 1)
+
+def probability_with_lg(lg_model, abs_diff_rating, turns, white_higher_rated ):
+    """ Given particular values of variables give the probability of a win or loss for the higher rated player.
+
+    :param lg_model: A logistic regression.
+    :param abs_diff_rating: Absolute difference in rating points Glicko2 for two chess players.
+    :param turns: Number of turns undergone in the game.
+    :param white_higher_rated: Whether the higher rated player is white.
+    :return:
+    """
+    e_term = np.e**( lg_model.intercept_[0] + lg_model.coef_[0][0] * abs_diff_rating +
+                     lg_model.coef_[0][1] * turns + lg_model.coef_[0][2] * white_higher_rated )
+    result = e_term / ( 1 + e_term )
+    return np.round( result, 2)
