@@ -1,6 +1,6 @@
 # Data Science Projects
 
-This repository contains my groovy work with data science projects.
+This repository contains my groovy work with data science projects. Feel free to suggest improvements!
 
 ## Chess 
 
