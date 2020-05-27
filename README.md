@@ -25,14 +25,14 @@ packages I used in each project, check out the project descriptions.
 
 ## Projects
 
-Ever wanted to predict the outcome of a chess match? In [my chess project](#chess), I use machine learning techniques
+Ever wanted to predict the outcome of a chess match? In [my chess project](#Implementing), I use machine learning techniques
 to predict who a winner in online matches will be.
 
 Are you curious about the Chernobyl 1986 Incident or just wanted to see a beautiful data
-visualization of map data? In [my Chernobyl visualization project](#chernobyl), I map data from
+visualization of map data? In [my Chernobyl visualization project](#Mapping), I map data from
 the Chernobyl nuclear fallout and show its spread across time in continental Europe.
 
-## Chess 
+## Implementing statistical learning methods to predict chess match outcomes
 
 You log in to your Lichess.org account and get ready to play an online chess match.
 A random pairing places you with someone having a rating 200 points higher than you.
@@ -41,19 +41,17 @@ You get to play as white. What are your chances of winning?
 This is a question this project seeks to answer. Kaggle.com provides a dataset with around 20,000
 observations, and I extract interesting variables to help me answer this question. Two examples of these
 variables are absolute difference in rating between players and number of turns. I perform an EDA
-on the variables of interest.
+on the variables of interest. These are some sample graphs I produce in the EDA.
 
-This is a histogram for the absolute difference in rating between two players.
 
 ![Difference in rating](images/DiffRating.png)
-
-And here's another histogram for the number of turns each player took.
 
 ![Number of turns](images/Turns.png)
 
 A logistic regression, a bag of trees, and a random forest crunch the variables I extract,
 and then try their hand at predicting outcomes in the matches. I provide simple introductions
-to the models used, metrics to judge the models by, and also interpret the results.
+to the models used, metrics to judge the models by, and also interpret the results. Here's an extract
+for Precision and Specificty measures in the models.
 
 ![Precision and Specificity chart](images/PrecisionSpecificity.png)
 
@@ -73,7 +71,7 @@ notebook, the first file will do. If you're just going to view in the browser, o
 * sklearn
 * chess_utility - a module I created to simplify the analysis.
 
-## Chernobyl
+## Mapping dangerous nuclear fall out concentrations geographically
 
 If you're an HBO fan, you may already be familiar with the nuclear accident that happened near
 Chernobyl, Ukraine in 1986. This accident resulted in significant human casualties and spreading
