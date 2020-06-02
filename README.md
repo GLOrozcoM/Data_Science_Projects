@@ -39,8 +39,7 @@ A random pairing places you with someone having a rating 200 points higher than 
 You get to play as white. What are your chances of winning?
 
 This is a question this project seeks to answer. Kaggle.com provides a dataset with around 20,000
-observations, and I extract interesting variables to help me answer this question. Two examples of these
-variables are absolute difference in rating between players and number of turns. I perform an EDA
+observations, and I extract interesting variables to help me answer this question. I also perform an EDA
 on the variables of interest. These are some sample graphs I produce in the EDA.
 
 
