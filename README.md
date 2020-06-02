@@ -17,7 +17,7 @@ visualization.
 
 ## Technologies
 
-I use Python version 3.6.1. Jupyter Notebook's (version 5.0.0) are also an essential part
+I use Python version 3.6.1. Jupyter Notebooks (version 5.0.0) are also an essential part
 to my workflow in being able to immediately to see quick data results and write for non-developer
 audiences. For heavier coding and refactoring
 purposes, I use pyCharm (community edition 2016.2.3). If you want to know the exact
